@@ -1,0 +1,1550 @@
+len listword: 3562
+7742
+Epoch: 1 Step: 0 Loss: 3.9454212 R: [0.98630846] Max nodes: 413
+Epoch: 1 Step: 10000 Loss: 1.4767451 R: [0.21521401] Max nodes: 264
+Epoch: 1 Step: 20000 Loss: 1.9975066 R: [0.41333175] Max nodes: 475
+Epoch: 1 Step: 30000 Loss: 1.2974415 R: [0.13905281] Max nodes: 222
+Epoch: 1 Step: 40000 Loss: 1.3332716 R: [0.15467383] Max nodes: 682
+Epoch: 1 Step: 50000 Loss: 1.0892315 R: [0.04366253] Max nodes: 1178
+Epoch: 1 Step: 60000 Loss: 0.8231081 R: [-0.09274694] Max nodes: 411
+Epoch: 1 Step: 70000 Loss: 0.0103834 R: [0.89810103] Max nodes: 531
+Epoch: 1 Step: 80000 Loss: 1.6439445 R: [0.28216398] Max nodes: 390
+Epoch: 1 Step: 90000 Loss: 2.3812714 R: [0.5431368] Max nodes: 179
+Epoch: 1 Step: 100000 Loss: 1.5096774 R: [0.22868934] Max nodes: 396
+Epoch: 1 Step: 110000 Loss: 1.1268361 R: [0.06152539] Max nodes: 280
+Epoch: 1 Step: 120000 Loss: 1.6555699 R: [0.28668955] Max nodes: 444
+Epoch: 1 Step: 130000 Loss: 1.1437708 R: [0.06947214] Max nodes: 279
+Epoch: 1 Step: 140000 Loss: 0.051445145 R: [0.7731848] Max nodes: 207
+Epoch: 1 Step: 150000 Loss: 2.130586 R: [0.4596527] Max nodes: 534
+Epoch: 1 Step: 160000 Loss: 1.242909 R: [0.11485827] Max nodes: 417
+Epoch: 1 Step: 170000 Loss: 0.3676617 R: [-0.3936489] Max nodes: 466
+Epoch: 1 Step: 180000 Loss: 0.9728661 R: [-0.01366023] Max nodes: 424
+Epoch: 1 Step: 190000 Loss: 0.46786207 R: [-0.31599557] Max nodes: 511
+Epoch: 1 Step: 200000 Loss: 0.5498067 R: [-0.25851047] Max nodes: 489
+Epoch: 1 Step: 210000 Loss: 0.19222641 R: [-0.5615637] Max nodes: 384
+Epoch: 1 Step: 220000 Loss: 0.5820004 R: [-0.23711053] Max nodes: 564
+Epoch: 1 Step: 230000 Loss: 1.3469416 R: [0.1605781] Max nodes: 319
+Epoch: 1 Step: 240000 Loss: 0.61621875 R: [-0.21500395] Max nodes: 216
+Epoch: 1 Step: 250000 Loss: 0.55481213 R: [-0.25514287] Max nodes: 747
+Epoch: 1 Step: 260000 Loss: 0.100940086 R: [0.6822893] Max nodes: 824
+Epoch: 1 Step: 270000 Loss: 0.0005341342 R: [0.97688866] Max nodes: 619
+Epoch: 1 Step: 280000 Loss: 0.09652012 R: [0.6893231] Max nodes: 426
+Epoch: 1 Step: 290000 Loss: 0.191605 R: [-0.5622729] Max nodes: 379
+Epoch: 1 Step: 300000 Loss: 0.5903458 R: [-0.23166034] Max nodes: 620
+Epoch: 1 Step: 310000 Loss: 0.8284204 R: [-0.08982394] Max nodes: 358
+Epoch: 1 Step: 320000 Loss: 0.6971874 R: [-0.16502249] Max nodes: 448
+Epoch: 1 Step: 330000 Loss: 0.8334907 R: [-0.08704289] Max nodes: 318
+Epoch: 1 Step: 340000 Loss: 0.21815988 R: [-0.5329241] Max nodes: 278
+Epoch: 1 Step: 350000 Loss: 0.5571312 R: [-0.25358778] Max nodes: 270
+Epoch: 1 Step: 360000 Loss: 0.024734214 R: [0.84272885] Max nodes: 193
+Epoch: 1 Step: 370000 Loss: 0.006127698 R: [0.9217204] Max nodes: 340
+Epoch: 1 Step: 380000 Loss: 0.66006404 R: [-0.18755676] Max nodes: 347
+Epoch: 1 Step: 390000 Loss: 0.675241 R: [-0.17826949] Max nodes: 456
+Epoch: 1 Step: 400000 Loss: 1.0761229 R: [0.03736346] Max nodes: 383
+Epoch: 1 Step: 410000 Loss: 0.09567623 R: [0.69068426] Max nodes: 233
+Epoch: 1 Step: 420000 Loss: 0.40943536 R: [-0.36012867] Max nodes: 356
+Epoch: 1 Step: 430000 Loss: 0.45343044 R: [-0.32662755] Max nodes: 641
+Epoch: 1 Step: 440000 Loss: 0.00920971 R: [0.90403277] Max nodes: 297
+Epoch: 1 Step: 450000 Loss: 0.007287753 R: [0.91463166] Max nodes: 202
+Epoch: 1 Step: 460000 Loss: 1.0318036 R: [0.01577738] Max nodes: 725
+Epoch: 1 Step: 470000 Loss: 0.6477442 R: [-0.19517449] Max nodes: 443
+Epoch: 1 Step: 480000 Loss: 0.0111958925 R: [0.89418936] Max nodes: 175
+Epoch: 1 Step: 490000 Loss: 0.25100923 R: [-0.4989918] Max nodes: 359
+Epoch: 1 Step: 500000 Loss: 0.2926779 R: [-0.45900285] Max nodes: 363
+Epoch: 1 Step: 510000 Loss: 0.9089949 R: [-0.04658778] Max nodes: 415
+Epoch: 1 Step: 520000 Loss: 0.16922154 R: [0.58863455] Max nodes: 433
+Epoch: 1 Step: 530000 Loss: 2.1181874 R: [0.45539936] Max nodes: 612
+Epoch: 1 Step: 540000 Loss: 0.046392094 R: [0.78461176] Max nodes: 387
+Epoch: 1 Step: 550000 Loss: 0.08549264 R: [0.70760876] Max nodes: 327
+Epoch: 1 Step: 560000 Loss: 2.162589 R: [0.47057435] Max nodes: 211
+Epoch: 1 Step: 570000 Loss: 0.4680142 R: [-0.31588438] Max nodes: 377
+Epoch: 1 Step: 580000 Loss: 0.48113957 R: [-0.30635777] Max nodes: 348
+Epoch: 1 Step: 590000 Loss: 0.52987784 R: [-0.27207294] Max nodes: 420
+Epoch: 1 Step: 600000 Loss: 0.8372736 R: [-0.08497345] Max nodes: 444
+Epoch: 1 Step: 610000 Loss: 0.76431066 R: [-0.12575139] Max nodes: 1113
+Epoch: 1 Step: 620000 Loss: 0.78816754 R: [-0.112212] Max nodes: 540
+Epoch: 1 Step: 630000 Loss: 0.07250024 R: [0.7307413] Max nodes: 256
+Epoch: 1 Step: 640000 Loss: 0.75133246 R: [-0.13320567] Max nodes: 401
+Epoch: 1 Step: 650000 Loss: 0.53627783 R: [-0.26769006] Max nodes: 386
+Epoch: 1 Step: 660000 Loss: 0.621033 R: [-0.21194354] Max nodes: 486
+Epoch: 1 Step: 670000 Loss: 1.1581808 R: [0.07618814] Max nodes: 476
+Epoch: 1 Step: 680000 Loss: 2.4014907 R: [0.5496744] Max nodes: 319
+Epoch: 1 Step: 690000 Loss: 0.84621394 R: [-0.08010111] Max nodes: 475
+Epoch: 1 Step: 700000 Loss: 0.3645633 R: [-0.3962092] Max nodes: 609
+Epoch: 1 Step: 710000 Loss: 0.0637781 R: [0.7474567] Max nodes: 665
+Epoch: 1 Step: 720000 Loss: 0.013434698 R: [0.88409185] Max nodes: 281
+Epoch: 1 Step: 730000 Loss: 0.9413605 R: [-0.02976266] Max nodes: 485
+Epoch: 1 Step: 740000 Loss: 0.0022275553 R: [0.952803] Max nodes: 202
+Epoch: 1 Step: 750000 Loss: 1.1294175 R: [0.06274056] Max nodes: 453
+Epoch: 1 Step: 760000 Loss: 0.6375527 R: [-0.20153105] Max nodes: 332
+Epoch: 1 Step: 770000 Loss: 0.93374586 R: [-0.03369477] Max nodes: 291
+Epoch: 1 Step: 780000 Loss: 0.940525 R: [-0.03019332] Max nodes: 363
+Epoch: 1 Step: 790000 Loss: 1.0280197 R: [0.01391298] Max nodes: 347
+Epoch: 1 Step: 800000 Loss: 0.016411407 R: [0.871893] Max nodes: 525
+Epoch: 1 Step: 810000 Loss: 0.029880073 R: [0.82714146] Max nodes: 303
+Epoch: 1 Step: 820000 Loss: 1.4577675 R: [0.20738044] Max nodes: 338
+Epoch: 1 Step: 830000 Loss: 0.862032 R: [-0.07154325] Max nodes: 292
+Epoch: 1 Step: 840000 Loss: 0.8558247 R: [-0.07489206] Max nodes: 296
+Epoch: 1 Step: 850000 Loss: 0.3268579 R: [-0.42828515] Max nodes: 305
+Epoch: 1 Step: 860000 Loss: 0.7005235 R: [-0.16302717] Max nodes: 500
+Epoch: 1 Step: 870000 Loss: 0.06286367 R: [0.7492737] Max nodes: 367
+Epoch: 1 Step: 880000 Loss: 0.8442887 R: [-0.08114813] Max nodes: 229
+Epoch: 1 Step: 890000 Loss: 0.6565965 R: [-0.18969354] Max nodes: 369
+Epoch: 1 Step: 900000 Loss: 2.848436 R: [0.68773097] Max nodes: 276
+Epoch: 1 Step: 910000 Loss: 1.0518049 R: [0.02557544] Max nodes: 360
+Epoch: 1 Step: 920000 Loss: 0.38491252 R: [-0.37958682] Max nodes: 336
+Epoch: 1 Step: 930000 Loss: 1.0913929 R: [0.04469758] Max nodes: 201
+Epoch: 1 Step: 940000 Loss: 0.8094867 R: [-0.10028524] Max nodes: 220
+Epoch: 1 Step: 950000 Loss: 0.61944443 R: [-0.21295208] Max nodes: 282
+Epoch: 1 Step: 960000 Loss: 0.0027524596 R: [0.9475361] Max nodes: 359
+Epoch: 1 Step: 970000 Loss: 0.7975985 R: [-0.10691629] Max nodes: 523
+Epoch: 1 Step: 980000 Loss: 0.9242742 R: [-0.03860817] Max nodes: 310
+Epoch: 1 Step: 990000 Loss: 0.0019211557 R: [0.956169] Max nodes: 1180
+Epoch: 1 Step: 1000000 Loss: 1.2315145 R: [0.1097362] Max nodes: 415
+Epoch: 1 Step: 1010000 Loss: 0.9014132 R: [-0.05057215] Max nodes: 316
+Epoch: 1 Step: 1020000 Loss: 0.88704425 R: [-0.05816971] Max nodes: 234
+Epoch: 1 Step: 1030000 Loss: 0.4250455 R: [-0.34804484] Max nodes: 485
+Epoch: 1 Step: 1040000 Loss: 0.6849654 R: [-0.17237364] Max nodes: 620
+Epoch: 1 Step: 1050000 Loss: 1.050395 R: [0.02488775] Max nodes: 342
+Epoch: 1 Step: 1060000 Loss: 0.9471635 R: [-0.02677674] Max nodes: 495
+Epoch: 1 Step: 1070000 Loss: 0.0045697778 R: [0.93239987] Max nodes: 499
+maxstep:
+13
+starttest:
+testdata
+
+threaholder:
+0.6000000000000001
+recall_test:0.2727272727272727
+precision_test:1.0
+f1score_test:0.42857142857142855
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/209.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/209.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/130.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/130.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/138.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/138.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/148.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/148.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/114.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/114.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/191.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/191.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/166.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/166.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/176.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/176.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/179.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/179.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/109.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/109.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/143.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/143.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/137.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/137.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/182.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/182.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/117.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/117.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/102.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/102.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/129.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/129.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/104.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/104.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/204.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/204.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/106.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/106.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/196.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/196.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/203.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/203.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/158.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/158.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/145.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/145.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/210.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/210.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/136.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/136.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/150.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/150.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/134.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/134.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/205.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/205.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/167.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/167.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/194.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/194.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/170.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/170.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/131.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/131.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/206.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/206.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/146.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/146.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/185.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/185.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/112.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/112.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/168.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/168.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/212.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/212.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/219.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/219.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/218.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/218.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/186.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/186.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/103.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/103.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/149.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/149.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/173.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/173.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/180.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/180.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/197.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/197.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/133.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/133.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/144.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/144.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/127.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/127.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/118.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/118.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/142.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/142.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/195.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/195.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/151.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/151.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/193.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/193.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/122.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/122.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/207.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/207.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/192.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/192.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/214.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/214.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/198.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/198.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/220.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/220.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/126.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/126.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/161.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/161.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/165.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/165.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/200.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/200.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/188.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/188.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/184.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/184.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/125.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/125.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/141.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/141.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/140.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/140.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/174.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/174.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/153.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/153.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/160.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/160.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/211.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/211.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/120.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/120.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/157.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/157.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/169.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/169.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/178.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/178.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/172.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/172.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/156.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/156.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/162.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/162.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/154.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/154.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/189.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/189.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/123.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/123.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/208.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/208.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/105.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/105.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/190.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/190.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/101.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/101.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/171.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/171.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/147.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/147.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/159.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/159.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/201.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/201.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/124.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/124.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/119.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/119.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/139.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/139.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/216.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/216.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/164.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/164.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/113.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/113.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/115.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/115.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/163.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/163.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/175.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/175.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/121.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/121.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/100.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/100.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/132.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/132.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/108.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/108.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/135.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/135.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/110.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/110.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/128.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/128.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/213.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/213.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/217.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/217.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/111.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/111.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/107.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/107.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/116.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/116.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/202.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/202.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/199.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/199.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/187.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/187.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/152.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/152.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/155.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/155.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/181.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/181.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/183.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/183.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/215.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/215.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/177.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/177.c', '1']
+
+Epoch: 2 Step: 0 Loss: 2.800059 R: [0.67333776] Max nodes: 413
+Epoch: 2 Step: 10000 Loss: 1.1295706 R: [0.06281255] Max nodes: 264
+Epoch: 2 Step: 20000 Loss: 0.90801305 R: [-0.04710282] Max nodes: 475
+Epoch: 2 Step: 30000 Loss: 0.6471834 R: [-0.19552293] Max nodes: 222
+Epoch: 2 Step: 40000 Loss: 0.7356503 R: [-0.14229938] Max nodes: 682
+Epoch: 2 Step: 50000 Loss: 1.2677462 R: [0.12594232] Max nodes: 1178
+Epoch: 2 Step: 60000 Loss: 0.9179515 R: [-0.04190211] Max nodes: 411
+Epoch: 2 Step: 70000 Loss: 0.0015631518 R: [0.9604633] Max nodes: 531
+Epoch: 2 Step: 80000 Loss: 0.7677456 R: [-0.12378907] Max nodes: 390
+Epoch: 2 Step: 90000 Loss: 1.8684357 R: [0.3669074] Max nodes: 179
+Epoch: 2 Step: 100000 Loss: 0.8752233 R: [-0.0644663] Max nodes: 396
+Epoch: 2 Step: 110000 Loss: 1.430968 R: [0.19623077] Max nodes: 280
+Epoch: 2 Step: 120000 Loss: 1.1376386 R: [0.06660145] Max nodes: 444
+Epoch: 2 Step: 130000 Loss: 0.87173283 R: [-0.06633363] Max nodes: 279
+Epoch: 2 Step: 140000 Loss: 0.040242046 R: [0.7993958] Max nodes: 207
+Epoch: 2 Step: 150000 Loss: 1.5211338 R: [0.23334248] Max nodes: 534
+Epoch: 2 Step: 160000 Loss: 0.6641082 R: [-0.18507163] Max nodes: 417
+Epoch: 2 Step: 170000 Loss: 1.0705627 R: [0.03468002] Max nodes: 466
+Epoch: 2 Step: 180000 Loss: 0.8202121 R: [-0.09434436] Max nodes: 424
+Epoch: 2 Step: 190000 Loss: 0.811339 R: [-0.09925641] Max nodes: 511
+Epoch: 2 Step: 200000 Loss: 0.69964856 R: [-0.16355003] Max nodes: 489
+Epoch: 2 Step: 210000 Loss: 0.29056048 R: [-0.46096334] Max nodes: 384
+Epoch: 2 Step: 220000 Loss: 0.5327551 R: [-0.27009928] Max nodes: 564
+Epoch: 2 Step: 230000 Loss: 1.132627 R: [0.06424952] Max nodes: 319
+Epoch: 2 Step: 240000 Loss: 0.85435915 R: [-0.07568448] Max nodes: 216
+Epoch: 2 Step: 250000 Loss: 0.6790707 R: [-0.17594254] Max nodes: 747
+Epoch: 2 Step: 260000 Loss: 0.02025243 R: [0.85768896] Max nodes: 824
+Epoch: 2 Step: 270000 Loss: 0.0006429567 R: [0.9746434] Max nodes: 619
+Epoch: 2 Step: 280000 Loss: 0.025427038 R: [0.8405414] Max nodes: 426
+Epoch: 2 Step: 290000 Loss: 0.4333916 R: [-0.34167516] Max nodes: 379
+Epoch: 2 Step: 300000 Loss: 0.46963748 R: [-0.314699] Max nodes: 620
+Epoch: 2 Step: 310000 Loss: 0.7963871 R: [-0.10759477] Max nodes: 358
+Epoch: 2 Step: 320000 Loss: 1.2126931 R: [0.10122353] Max nodes: 448
+Epoch: 2 Step: 330000 Loss: 1.1137079 R: [0.05532362] Max nodes: 318
+Epoch: 2 Step: 340000 Loss: 0.49567407 R: [-0.2959588] Max nodes: 278
+Epoch: 2 Step: 350000 Loss: 0.84603125 R: [-0.08020043] Max nodes: 270
+Epoch: 2 Step: 360000 Loss: 0.008633961 R: [0.9070809] Max nodes: 193
+Epoch: 2 Step: 370000 Loss: 0.0027168642 R: [0.94787645] Max nodes: 340
+Epoch: 2 Step: 380000 Loss: 0.9030764 R: [-0.0496967] Max nodes: 347
+Epoch: 2 Step: 390000 Loss: 0.90325004 R: [-0.04960531] Max nodes: 456
+Epoch: 2 Step: 400000 Loss: 0.96189016 R: [-0.01924005] Max nodes: 383
+Epoch: 2 Step: 410000 Loss: 0.047897782 R: [0.7811444] Max nodes: 233
+Epoch: 2 Step: 420000 Loss: 0.6443578 R: [-0.19728102] Max nodes: 356
+Epoch: 2 Step: 430000 Loss: 0.42316693 R: [-0.34948716] Max nodes: 641
+Epoch: 2 Step: 440000 Loss: 0.006106636 R: [0.92185503] Max nodes: 297
+Epoch: 2 Step: 450000 Loss: 0.0017457921 R: [0.9582173] Max nodes: 202
+Epoch: 2 Step: 460000 Loss: 0.97814876 R: [-0.01098597] Max nodes: 725
+Epoch: 2 Step: 470000 Loss: 0.71256024 R: [-0.15586714] Max nodes: 443
+Epoch: 2 Step: 480000 Loss: 0.0035738624 R: [0.9402182] Max nodes: 175
+Epoch: 2 Step: 490000 Loss: 0.41036603 R: [-0.35940182] Max nodes: 359
+Epoch: 2 Step: 500000 Loss: 0.6284538 R: [-0.20724924] Max nodes: 363
+Epoch: 2 Step: 510000 Loss: 0.9353168 R: [-0.0328822] Max nodes: 415
+Epoch: 2 Step: 520000 Loss: 0.03574462 R: [0.8109375] Max nodes: 433
+Epoch: 2 Step: 530000 Loss: 1.562565 R: [0.25002605] Max nodes: 612
+Epoch: 2 Step: 540000 Loss: 0.026498605 R: [0.8372161] Max nodes: 387
+Epoch: 2 Step: 550000 Loss: 0.05445057 R: [0.76665354] Max nodes: 327
+Epoch: 2 Step: 560000 Loss: 1.3777018 R: [0.17375535] Max nodes: 211
+Epoch: 2 Step: 570000 Loss: 0.42044428 R: [-0.35158324] Max nodes: 377
+Epoch: 2 Step: 580000 Loss: 0.80480635 R: [-0.10289003] Max nodes: 348
+Epoch: 2 Step: 590000 Loss: 0.7758334 R: [-0.11918595] Max nodes: 420
+Epoch: 2 Step: 600000 Loss: 0.9444557 R: [-0.02816894] Max nodes: 444
+Epoch: 2 Step: 610000 Loss: 0.6129718 R: [-0.21707487] Max nodes: 1113
+Epoch: 2 Step: 620000 Loss: 0.94457686 R: [-0.02810656] Max nodes: 540
+Epoch: 2 Step: 630000 Loss: 0.05862277 R: [0.7578786] Max nodes: 256
+Epoch: 2 Step: 640000 Loss: 0.89981323 R: [-0.05141513] Max nodes: 401
+Epoch: 2 Step: 650000 Loss: 0.5652291 R: [-0.24818276] Max nodes: 386
+Epoch: 2 Step: 660000 Loss: 0.6950368 R: [-0.16631132] Max nodes: 486
+Epoch: 2 Step: 670000 Loss: 1.3002676 R: [0.14029281] Max nodes: 476
+Epoch: 2 Step: 680000 Loss: 1.4871635 R: [0.21949317] Max nodes: 319
+Epoch: 2 Step: 690000 Loss: 0.92949677 R: [-0.03589589] Max nodes: 475
+Epoch: 2 Step: 700000 Loss: 0.54123366 R: [-0.2643142] Max nodes: 609
+Epoch: 2 Step: 710000 Loss: 0.01673807 R: [0.8706243] Max nodes: 665
+Epoch: 2 Step: 720000 Loss: 0.0040492606 R: [0.9363662] Max nodes: 281
+Epoch: 2 Step: 730000 Loss: 0.7458379 R: [-0.13638094] Max nodes: 485
+Epoch: 2 Step: 740000 Loss: 0.0011401288 R: [0.9662342] Max nodes: 202
+Epoch: 2 Step: 750000 Loss: 0.9156713 R: [-0.04309287] Max nodes: 453
+Epoch: 2 Step: 760000 Loss: 0.74583524 R: [-0.13638249] Max nodes: 332
+Epoch: 2 Step: 770000 Loss: 0.87316614 R: [-0.06556645] Max nodes: 291
+Epoch: 2 Step: 780000 Loss: 1.0527563 R: [0.02603907] Max nodes: 363
+Epoch: 2 Step: 790000 Loss: 1.0736307 R: [0.03616154] Max nodes: 347
+Epoch: 2 Step: 800000 Loss: 0.005213107 R: [0.92779815] Max nodes: 525
+Epoch: 2 Step: 810000 Loss: 0.025108501 R: [0.8415434] Max nodes: 303
+Epoch: 2 Step: 820000 Loss: 0.9819632 R: [-0.00905945] Max nodes: 338
+Epoch: 2 Step: 830000 Loss: 0.8570832 R: [-0.07421213] Max nodes: 292
+Epoch: 2 Step: 840000 Loss: 0.8393063 R: [-0.08386341] Max nodes: 296
+Epoch: 2 Step: 850000 Loss: 0.36216104 R: [-0.3982018] Max nodes: 305
+Epoch: 2 Step: 860000 Loss: 0.8910938 R: [-0.05602233] Max nodes: 500
+Epoch: 2 Step: 870000 Loss: 0.014678409 R: [0.8788455] Max nodes: 367
+Epoch: 2 Step: 880000 Loss: 0.79766065 R: [-0.10688147] Max nodes: 229
+Epoch: 2 Step: 890000 Loss: 0.79158896 R: [-0.11028715] Max nodes: 369
+Epoch: 2 Step: 900000 Loss: 2.3447974 R: [0.5312732] Max nodes: 276
+Epoch: 2 Step: 910000 Loss: 0.99750316 R: [-0.00124919] Max nodes: 360
+Epoch: 2 Step: 920000 Loss: 0.5284812 R: [-0.27303293] Max nodes: 336
+Epoch: 2 Step: 930000 Loss: 1.4830567 R: [0.21780814] Max nodes: 201
+Epoch: 2 Step: 940000 Loss: 0.96002775 R: [-0.02018995] Max nodes: 220
+Epoch: 2 Step: 950000 Loss: 0.71863216 R: [-0.15227823] Max nodes: 282
+Epoch: 2 Step: 960000 Loss: 0.0015393241 R: [0.9607658] Max nodes: 359
+Epoch: 2 Step: 970000 Loss: 0.7628207 R: [-0.12660392] Max nodes: 523
+Epoch: 2 Step: 980000 Loss: 1.0967294 R: [0.0472485] Max nodes: 310
+Epoch: 2 Step: 990000 Loss: 0.0011942429 R: [0.9654422] Max nodes: 1180
+Epoch: 2 Step: 1000000 Loss: 1.0690727 R: [0.03395972] Max nodes: 415
+Epoch: 2 Step: 1010000 Loss: 0.55054003 R: [-0.25801617] Max nodes: 316
+Epoch: 2 Step: 1020000 Loss: 0.930344 R: [-0.03545658] Max nodes: 234
+Epoch: 2 Step: 1030000 Loss: 0.47816032 R: [-0.30850866] Max nodes: 485
+Epoch: 2 Step: 1040000 Loss: 0.7974375 R: [-0.10700643] Max nodes: 620
+Epoch: 2 Step: 1050000 Loss: 0.98368746 R: [-0.00818979] Max nodes: 342
+Epoch: 2 Step: 1060000 Loss: 1.0687864 R: [0.03382126] Max nodes: 495
+Epoch: 2 Step: 1070000 Loss: 0.0035782252 R: [0.94018173] Max nodes: 499
+maxstep:
+13
+starttest:
+testdata
+
+threaholder:
+0.6000000000000001
+recall_test:0.24793388429752067
+precision_test:1.0
+f1score_test:0.3973509933774834
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/209.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/209.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/130.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/130.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/138.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/138.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/148.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/148.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/114.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/114.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/191.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/191.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/166.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/166.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/176.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/176.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/179.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/179.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/109.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/109.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/143.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/143.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/137.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/137.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/182.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/182.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/117.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/117.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/102.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/102.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/129.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/129.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/104.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/104.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/204.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/204.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/106.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/106.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/196.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/196.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/203.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/203.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/158.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/158.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/145.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/145.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/210.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/210.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/136.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/136.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/150.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/150.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/134.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/134.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/205.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/205.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/167.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/167.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/194.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/194.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/170.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/170.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/131.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/131.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/206.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/206.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/146.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/146.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/185.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/185.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/112.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/112.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/168.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/168.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/212.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/212.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/219.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/219.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/218.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/218.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/186.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/186.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/103.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/103.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/149.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/149.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/173.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/173.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/180.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/180.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/197.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/197.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/133.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/133.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/144.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/144.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/127.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/127.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/118.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/118.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/142.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/142.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/195.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/195.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/151.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/151.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/193.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/193.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/122.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/122.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/207.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/207.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/192.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/192.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/214.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/214.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/198.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/198.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/220.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/220.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/126.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/126.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/161.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/161.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/165.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/165.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/200.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/200.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/188.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/188.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/184.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/184.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/125.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/125.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/141.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/141.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/140.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/140.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/174.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/174.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/153.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/153.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/160.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/160.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/211.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/211.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/120.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/120.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/157.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/157.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/169.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/169.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/178.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/178.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/172.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/172.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/156.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/156.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/162.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/162.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/154.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/154.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/189.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/189.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/123.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/123.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/208.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/208.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/105.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/105.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/190.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/190.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/101.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/101.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/171.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/171.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/147.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/147.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/159.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/159.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/201.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/201.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/124.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/124.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/119.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/119.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/139.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/139.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/216.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/216.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/164.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/164.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/113.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/113.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/115.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/115.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/163.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/163.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/175.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/175.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/121.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/121.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/100.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/100.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/132.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/132.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/108.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/108.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/135.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/135.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/110.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/110.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/128.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/128.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/213.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/213.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/217.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/217.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/111.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/111.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/107.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/107.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/116.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/116.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/202.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/202.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/199.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/199.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/187.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/187.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/152.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/152.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/155.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/155.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/181.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/181.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/183.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/183.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/215.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/215.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/177.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/177.c', '1']
+
+Epoch: 3 Step: 0 Loss: 2.4514704 R: [0.5657172] Max nodes: 413
+Epoch: 3 Step: 10000 Loss: 1.0315608 R: [0.01565781] Max nodes: 264
+Epoch: 3 Step: 20000 Loss: 0.8452639 R: [-0.08061766] Max nodes: 475
+Epoch: 3 Step: 30000 Loss: 0.6756913 R: [-0.17799558] Max nodes: 222
+Epoch: 3 Step: 40000 Loss: 0.7715012 R: [-0.12164862] Max nodes: 682
+Epoch: 3 Step: 50000 Loss: 1.2550987 R: [0.12031183] Max nodes: 1178
+Epoch: 3 Step: 60000 Loss: 1.0253688 R: [0.01260497] Max nodes: 411
+Epoch: 3 Step: 70000 Loss: 0.0007628588 R: [0.9723801] Max nodes: 531
+Epoch: 3 Step: 80000 Loss: 0.70453864 R: [-0.16063201] Max nodes: 390
+Epoch: 3 Step: 90000 Loss: 1.4840118 R: [0.21820018] Max nodes: 179
+Epoch: 3 Step: 100000 Loss: 0.8816197 R: [-0.06105394] Max nodes: 396
+Epoch: 3 Step: 110000 Loss: 1.2828559 R: [0.1326322] Max nodes: 280
+Epoch: 3 Step: 120000 Loss: 0.8362238 R: [-0.08554725] Max nodes: 444
+Epoch: 3 Step: 130000 Loss: 0.8511541 R: [-0.07741989] Max nodes: 279
+Epoch: 3 Step: 140000 Loss: 0.033836003 R: [0.81605434] Max nodes: 207
+Epoch: 3 Step: 150000 Loss: 1.3899202 R: [0.17894877] Max nodes: 534
+Epoch: 3 Step: 160000 Loss: 0.5783839 R: [-0.2394844] Max nodes: 417
+Epoch: 3 Step: 170000 Loss: 1.2091075 R: [0.09959424] Max nodes: 466
+Epoch: 3 Step: 180000 Loss: 0.9232397 R: [-0.03914634] Max nodes: 424
+Epoch: 3 Step: 190000 Loss: 0.874643 R: [-0.06477646] Max nodes: 511
+Epoch: 3 Step: 200000 Loss: 0.70475096 R: [-0.16050552] Max nodes: 489
+Epoch: 3 Step: 210000 Loss: 0.37562847 R: [-0.38711467] Max nodes: 384
+Epoch: 3 Step: 220000 Loss: 0.654205 R: [-0.1911706] Max nodes: 564
+Epoch: 3 Step: 230000 Loss: 1.007806 R: [0.00389536] Max nodes: 319
+Epoch: 3 Step: 240000 Loss: 0.96074295 R: [-0.01982505] Max nodes: 216
+Epoch: 3 Step: 250000 Loss: 0.87850064 R: [-0.06271636] Max nodes: 747
+Epoch: 3 Step: 260000 Loss: 0.009352356 R: [0.9032924] Max nodes: 824
+Epoch: 3 Step: 270000 Loss: 0.00090374297 R: [0.9699377] Max nodes: 619
+Epoch: 3 Step: 280000 Loss: 0.010957903 R: [0.89532] Max nodes: 426
+Epoch: 3 Step: 290000 Loss: 0.5729271 R: [-0.24308047] Max nodes: 379
+Epoch: 3 Step: 300000 Loss: 0.6217362 R: [-0.2114975] Max nodes: 620
+Epoch: 3 Step: 310000 Loss: 0.7760653 R: [-0.11905433] Max nodes: 358
+Epoch: 3 Step: 320000 Loss: 1.2145861 R: [0.10208259] Max nodes: 448
+Epoch: 3 Step: 330000 Loss: 1.1641597 R: [0.07896235] Max nodes: 318
+Epoch: 3 Step: 340000 Loss: 0.6401417 R: [-0.1999114] Max nodes: 278
+Epoch: 3 Step: 350000 Loss: 0.82942414 R: [-0.08927272] Max nodes: 270
+Epoch: 3 Step: 360000 Loss: 0.0052068685 R: [0.92784137] Max nodes: 193
+Epoch: 3 Step: 370000 Loss: 0.0014286743 R: [0.9622022] Max nodes: 340
+Epoch: 3 Step: 380000 Loss: 0.89616084 R: [-0.05334229] Max nodes: 347
+Epoch: 3 Step: 390000 Loss: 0.8717413 R: [-0.0663291] Max nodes: 456
+Epoch: 3 Step: 400000 Loss: 0.8917696 R: [-0.05566449] Max nodes: 383
+Epoch: 3 Step: 410000 Loss: 0.027389258 R: [0.834503] Max nodes: 233
+Epoch: 3 Step: 420000 Loss: 0.76723117 R: [-0.12408269] Max nodes: 356
+Epoch: 3 Step: 430000 Loss: 0.49464783 R: [-0.296688] Max nodes: 641
+Epoch: 3 Step: 440000 Loss: 0.0041262237 R: [0.9357643] Max nodes: 297
+Epoch: 3 Step: 450000 Loss: 0.00065354933 R: [0.9744354] Max nodes: 202
+Epoch: 3 Step: 460000 Loss: 0.87592083 R: [-0.06409362] Max nodes: 725
+Epoch: 3 Step: 470000 Loss: 0.8134796 R: [-0.09806895] Max nodes: 443
+Epoch: 3 Step: 480000 Loss: 0.0025892854 R: [0.949115] Max nodes: 175
+Epoch: 3 Step: 490000 Loss: 0.43970224 R: [-0.33689952] Max nodes: 359
+Epoch: 3 Step: 500000 Loss: 0.72307944 R: [-0.14965922] Max nodes: 363
+Epoch: 3 Step: 510000 Loss: 0.88959104 R: [-0.05681868] Max nodes: 415
+Epoch: 3 Step: 520000 Loss: 0.011921998 R: [0.8908121] Max nodes: 433
+Epoch: 3 Step: 530000 Loss: 1.2798175 R: [0.1312902] Max nodes: 612
+Epoch: 3 Step: 540000 Loss: 0.018214636 R: [0.8650384] Max nodes: 387
+Epoch: 3 Step: 550000 Loss: 0.041728206 R: [0.79572517] Max nodes: 327
+Epoch: 3 Step: 560000 Loss: 1.264696 R: [0.1245871] Max nodes: 211
+Epoch: 3 Step: 570000 Loss: 0.47732916 R: [-0.30910987] Max nodes: 377
+Epoch: 3 Step: 580000 Loss: 0.8287391 R: [-0.08964889] Max nodes: 348
+Epoch: 3 Step: 590000 Loss: 0.8445583 R: [-0.08100147] Max nodes: 420
+Epoch: 3 Step: 600000 Loss: 0.962945 R: [-0.0187024] Max nodes: 444
+Epoch: 3 Step: 610000 Loss: 0.5232915 R: [-0.27661106] Max nodes: 1113
+Epoch: 3 Step: 620000 Loss: 0.90444326 R: [-0.0489778] Max nodes: 540
+Epoch: 3 Step: 630000 Loss: 0.047425583 R: [0.78222585] Max nodes: 256
+Epoch: 3 Step: 640000 Loss: 0.86426276 R: [-0.07034264] Max nodes: 401
+Epoch: 3 Step: 650000 Loss: 0.6176852 R: [-0.2140705] Max nodes: 386
+Epoch: 3 Step: 660000 Loss: 0.733887 R: [-0.14332797] Max nodes: 486
+Epoch: 3 Step: 670000 Loss: 1.2776715 R: [0.13034129] Max nodes: 476
+Epoch: 3 Step: 680000 Loss: 1.1778176 R: [0.08527302] Max nodes: 319
+Epoch: 3 Step: 690000 Loss: 0.86281633 R: [-0.0711209] Max nodes: 475
+Epoch: 3 Step: 700000 Loss: 0.6292254 R: [-0.20676273] Max nodes: 609
+Epoch: 3 Step: 710000 Loss: 0.008576193 R: [0.90739226] Max nodes: 665
+Epoch: 3 Step: 720000 Loss: 0.0028249794 R: [0.94684947] Max nodes: 281
+Epoch: 3 Step: 730000 Loss: 0.65684515 R: [-0.18954016] Max nodes: 485
+Epoch: 3 Step: 740000 Loss: 0.00079885963 R: [0.9717359] Max nodes: 202
+Epoch: 3 Step: 750000 Loss: 0.7994451 R: [-0.10588305] Max nodes: 453
+Epoch: 3 Step: 760000 Loss: 0.8271519 R: [-0.09052107] Max nodes: 332
+Epoch: 3 Step: 770000 Loss: 0.86460626 R: [-0.07015792] Max nodes: 291
+Epoch: 3 Step: 780000 Loss: 1.096679 R: [0.04722444] Max nodes: 363
+Epoch: 3 Step: 790000 Loss: 1.0415701 R: [0.02057334] Max nodes: 347
+Epoch: 3 Step: 800000 Loss: 0.0048710774 R: [0.9302069] Max nodes: 525
+Epoch: 3 Step: 810000 Loss: 0.025703873 R: [0.8396757] Max nodes: 303
+Epoch: 3 Step: 820000 Loss: 0.8481881 R: [-0.07902872] Max nodes: 338
+Epoch: 3 Step: 830000 Loss: 0.9278714 R: [-0.03673917] Max nodes: 292
+Epoch: 3 Step: 840000 Loss: 0.9358576 R: [-0.03260269] Max nodes: 296
+Epoch: 3 Step: 850000 Loss: 0.423736 R: [-0.34904996] Max nodes: 305
+Epoch: 3 Step: 860000 Loss: 0.95661736 R: [-0.02193183] Max nodes: 500
+Epoch: 3 Step: 870000 Loss: 0.009270294 R: [0.90371764] Max nodes: 367
+Epoch: 3 Step: 880000 Loss: 0.7932806 R: [-0.10933696] Max nodes: 229
+Epoch: 3 Step: 890000 Loss: 0.8845092 R: [-0.05951647] Max nodes: 369
+Epoch: 3 Step: 900000 Loss: 1.8564351 R: [0.36251053] Max nodes: 276
+Epoch: 3 Step: 910000 Loss: 0.9393038 R: [-0.03082313] Max nodes: 360
+Epoch: 3 Step: 920000 Loss: 0.63249445 R: [-0.20470482] Max nodes: 336
+Epoch: 3 Step: 930000 Loss: 1.4661875 R: [0.2108623] Max nodes: 201
+Epoch: 3 Step: 940000 Loss: 0.8899879 R: [-0.0566083] Max nodes: 220
+Epoch: 3 Step: 950000 Loss: 0.74647987 R: [-0.13600932] Max nodes: 282
+Epoch: 3 Step: 960000 Loss: 0.0011902378 R: [0.9655002] Max nodes: 359
+Epoch: 3 Step: 970000 Loss: 0.7437028 R: [-0.13761795] Max nodes: 523
+Epoch: 3 Step: 980000 Loss: 1.235011 R: [0.11131052] Max nodes: 310
+Epoch: 3 Step: 990000 Loss: 0.0022268915 R: [0.95281005] Max nodes: 1180
+Epoch: 3 Step: 1000000 Loss: 1.0056552 R: [0.00282363] Max nodes: 415
+Epoch: 3 Step: 1010000 Loss: 0.5065033 R: [-0.2883096] Max nodes: 316
+Epoch: 3 Step: 1020000 Loss: 0.9877093 R: [-0.00616436] Max nodes: 234
+Epoch: 3 Step: 1030000 Loss: 0.5917119 R: [-0.23077187] Max nodes: 485
+Epoch: 3 Step: 1040000 Loss: 0.8077084 R: [-0.10127399] Max nodes: 620
+Epoch: 3 Step: 1050000 Loss: 0.91602904 R: [-0.04290592] Max nodes: 342
+Epoch: 3 Step: 1060000 Loss: 1.063188 R: [0.03111006] Max nodes: 495
+Epoch: 3 Step: 1070000 Loss: 0.002019587 R: [0.9550602] Max nodes: 499
+maxstep:
+13
+starttest:
+testdata
+
+threaholder:
+0.6000000000000001
+recall_test:0.2396694214876033
+precision_test:1.0
+f1score_test:0.38666666666666666
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/209.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/209.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/130.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/130.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/138.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/138.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/148.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/148.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/114.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/114.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/191.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/191.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/166.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/166.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/176.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/176.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/179.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/179.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/109.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/109.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/143.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/143.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/137.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/137.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/182.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/182.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/117.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/117.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/102.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/102.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/129.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/129.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/104.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/104.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/204.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/204.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/106.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/106.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/196.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/196.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/203.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/203.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/158.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/158.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/145.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/145.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/210.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/210.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/136.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/136.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/150.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/150.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/134.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/134.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/205.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/205.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/167.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/167.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/194.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/194.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/170.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/170.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/131.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/131.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/206.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/206.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/146.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/146.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/185.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/185.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/112.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/112.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/168.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/168.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/212.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/212.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/219.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/219.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/218.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/218.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/186.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/186.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/103.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/103.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/149.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/149.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/173.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/173.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/180.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/180.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/197.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/197.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/133.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/133.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/144.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/144.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/127.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/127.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/118.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/118.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/142.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/142.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/195.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/195.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/151.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/151.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/193.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/193.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/122.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/122.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/207.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/207.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/192.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/192.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/214.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/214.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/198.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/198.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/220.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/220.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/126.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/126.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/161.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/161.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/165.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/165.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/200.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/200.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/188.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/188.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/184.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/184.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/125.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/125.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/141.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/141.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/140.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/140.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/174.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/174.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/153.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/153.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/160.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/160.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/211.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/211.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/120.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/120.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/157.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/157.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/169.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/169.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/178.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/178.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/172.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/172.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/156.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/156.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/162.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/162.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/154.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/154.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/189.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/189.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/123.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/123.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/208.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/208.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/105.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/105.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/190.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/190.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/101.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/101.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/171.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/171.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/147.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/147.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/159.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/159.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/201.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/201.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/124.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/124.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/119.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/119.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/139.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/139.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/216.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/216.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/164.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/164.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/113.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/113.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/115.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/115.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/163.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/163.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/175.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/175.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/121.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/121.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/100.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/100.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/132.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/132.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/108.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/108.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/135.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/135.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/110.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/110.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/128.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/128.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/213.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/213.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/217.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/217.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/111.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/111.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/107.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/107.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/116.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/116.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/202.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/202.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/199.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/199.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/187.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/187.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/152.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/152.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/155.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/155.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/181.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/181.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/183.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/183.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/215.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/215.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/177.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/177.c', '1']
+
+Epoch: 4 Step: 0 Loss: 2.2032604 R: [0.48433843] Max nodes: 413
+Epoch: 4 Step: 10000 Loss: 0.9815391 R: [-0.00927346] Max nodes: 264
+Epoch: 4 Step: 20000 Loss: 0.82511604 R: [-0.091641] Max nodes: 475
+Epoch: 4 Step: 30000 Loss: 0.7218959 R: [-0.15035547] Max nodes: 222
+Epoch: 4 Step: 40000 Loss: 0.7395534 R: [-0.14002712] Max nodes: 682
+Epoch: 4 Step: 50000 Loss: 1.0892054 R: [0.04365] Max nodes: 1178
+Epoch: 4 Step: 60000 Loss: 1.0404094 R: [0.02000464] Max nodes: 411
+Epoch: 4 Step: 70000 Loss: 0.0005643857 R: [0.9762432] Max nodes: 531
+Epoch: 4 Step: 80000 Loss: 0.61841786 R: [-0.21360452] Max nodes: 390
+Epoch: 4 Step: 90000 Loss: 1.2221943 R: [0.10552894] Max nodes: 179
+Epoch: 4 Step: 100000 Loss: 0.8782679 R: [-0.0628405] Max nodes: 396
+Epoch: 4 Step: 110000 Loss: 1.2715328 R: [0.12762254] Max nodes: 280
+Epoch: 4 Step: 120000 Loss: 0.7934605 R: [-0.10923602] Max nodes: 444
+Epoch: 4 Step: 130000 Loss: 0.8179944 R: [-0.09556954] Max nodes: 279
+Epoch: 4 Step: 140000 Loss: 0.019670086 R: [0.8597499] Max nodes: 207
+Epoch: 4 Step: 150000 Loss: 1.3335744 R: [0.15480497] Max nodes: 534
+Epoch: 4 Step: 160000 Loss: 0.54290336 R: [-0.26318023] Max nodes: 417
+Epoch: 4 Step: 170000 Loss: 1.167319 R: [0.08042539] Max nodes: 466
+Epoch: 4 Step: 180000 Loss: 0.92388046 R: [-0.03881297] Max nodes: 424
+Epoch: 4 Step: 190000 Loss: 0.8911854 R: [-0.05597381] Max nodes: 511
+Epoch: 4 Step: 200000 Loss: 0.7111058 R: [-0.15672907] Max nodes: 489
+Epoch: 4 Step: 210000 Loss: 0.46229982 R: [-0.32007366] Max nodes: 384
+Epoch: 4 Step: 220000 Loss: 0.68347836 R: [-0.17327246] Max nodes: 564
+Epoch: 4 Step: 230000 Loss: 0.967776 R: [-0.01624395] Max nodes: 319
+Epoch: 4 Step: 240000 Loss: 0.9861498 R: [-0.00694927] Max nodes: 216
+Epoch: 4 Step: 250000 Loss: 0.91491336 R: [-0.04348897] Max nodes: 747
+Epoch: 4 Step: 260000 Loss: 0.00612739 R: [0.92172235] Max nodes: 824
+Epoch: 4 Step: 270000 Loss: 0.00081002055 R: [0.97153914] Max nodes: 619
+Epoch: 4 Step: 280000 Loss: 0.008447624 R: [0.90808904] Max nodes: 426
+Epoch: 4 Step: 290000 Loss: 0.66380596 R: [-0.18525714] Max nodes: 379
+Epoch: 4 Step: 300000 Loss: 0.7337001 R: [-0.14343701] Max nodes: 620
+Epoch: 4 Step: 310000 Loss: 0.7536007 R: [-0.13189824] Max nodes: 358
+Epoch: 4 Step: 320000 Loss: 1.1534653 R: [0.07399499] Max nodes: 448
+Epoch: 4 Step: 330000 Loss: 1.044025 R: [0.02177532] Max nodes: 318
+Epoch: 4 Step: 340000 Loss: 0.6731786 R: [-0.17952535] Max nodes: 278
+Epoch: 4 Step: 350000 Loss: 0.7839966 R: [-0.11456416] Max nodes: 270
+Epoch: 4 Step: 360000 Loss: 0.003356858 R: [0.9420616] Max nodes: 193
+Epoch: 4 Step: 370000 Loss: 0.0011242446 R: [0.96647024] Max nodes: 340
+Epoch: 4 Step: 380000 Loss: 0.8679294 R: [-0.06837275] Max nodes: 347
+Epoch: 4 Step: 390000 Loss: 0.85154146 R: [-0.07720992] Max nodes: 456
+Epoch: 4 Step: 400000 Loss: 0.85968095 R: [-0.07281019] Max nodes: 383
+Epoch: 4 Step: 410000 Loss: 0.019166991 R: [0.8615551] Max nodes: 233
+Epoch: 4 Step: 420000 Loss: 0.8543824 R: [-0.0756719] Max nodes: 356
+Epoch: 4 Step: 430000 Loss: 0.5848548 R: [-0.23524204] Max nodes: 641
+Epoch: 4 Step: 440000 Loss: 0.0025634605 R: [0.9493694] Max nodes: 297
+Epoch: 4 Step: 450000 Loss: 0.0002658287 R: [0.98369575] Max nodes: 202
+Epoch: 4 Step: 460000 Loss: 0.84401184 R: [-0.08129884] Max nodes: 725
+Epoch: 4 Step: 470000 Loss: 0.8198523 R: [-0.09454302] Max nodes: 443
+Epoch: 4 Step: 480000 Loss: 0.0023306303 R: [0.9517234] Max nodes: 175
+Epoch: 4 Step: 490000 Loss: 0.47975406 R: [-0.30735716] Max nodes: 359
+Epoch: 4 Step: 500000 Loss: 0.7736638 R: [-0.12041836] Max nodes: 363
+Epoch: 4 Step: 510000 Loss: 0.89660066 R: [-0.05311001] Max nodes: 415
+Epoch: 4 Step: 520000 Loss: 0.004798665 R: [0.9307276] Max nodes: 433
+Epoch: 4 Step: 530000 Loss: 0.99462414 R: [-0.00269158] Max nodes: 612
+Epoch: 4 Step: 540000 Loss: 0.013218587 R: [0.8850279] Max nodes: 387
+Epoch: 4 Step: 550000 Loss: 0.03421779 R: [0.8150195] Max nodes: 327
+Epoch: 4 Step: 560000 Loss: 1.1267394 R: [0.06147981] Max nodes: 211
+Epoch: 4 Step: 570000 Loss: 0.5783728 R: [-0.23949175] Max nodes: 377
+Epoch: 4 Step: 580000 Loss: 0.79299873 R: [-0.10949524] Max nodes: 348
+Epoch: 4 Step: 590000 Loss: 0.8324406 R: [-0.08761817] Max nodes: 420
+Epoch: 4 Step: 600000 Loss: 1.0341636 R: [0.01693829] Max nodes: 444
+Epoch: 4 Step: 610000 Loss: 0.552924 R: [-0.25641143] Max nodes: 1113
+Epoch: 4 Step: 620000 Loss: 0.8094887 R: [-0.10028409] Max nodes: 540
+Epoch: 4 Step: 630000 Loss: 0.04240827 R: [0.7940673] Max nodes: 256
+Epoch: 4 Step: 640000 Loss: 0.8520192 R: [-0.07695115] Max nodes: 401
+Epoch: 4 Step: 650000 Loss: 0.62719214 R: [-0.20804535] Max nodes: 386
+Epoch: 4 Step: 660000 Loss: 0.76000565 R: [-0.12821697] Max nodes: 486
+Epoch: 4 Step: 670000 Loss: 1.2513514 R: [0.11863814] Max nodes: 476
+Epoch: 4 Step: 680000 Loss: 0.9690215 R: [-0.01561108] Max nodes: 319
+Epoch: 4 Step: 690000 Loss: 0.8613925 R: [-0.07188769] Max nodes: 475
+Epoch: 4 Step: 700000 Loss: 0.6579757 R: [-0.18884304] Max nodes: 609
+Epoch: 4 Step: 710000 Loss: 0.0061658304 R: [0.9214772] Max nodes: 665
+Epoch: 4 Step: 720000 Loss: 0.002226717 R: [0.9528119] Max nodes: 281
+Epoch: 4 Step: 730000 Loss: 0.60277784 R: [-0.22361232] Max nodes: 485
+Epoch: 4 Step: 740000 Loss: 0.0005202735 R: [0.9771905] Max nodes: 202
+Epoch: 4 Step: 750000 Loss: 0.8099007 R: [-0.10005514] Max nodes: 453
+Epoch: 4 Step: 760000 Loss: 0.868367 R: [-0.06813788] Max nodes: 332
+Epoch: 4 Step: 770000 Loss: 0.77565086 R: [-0.11928956] Max nodes: 291
+Epoch: 4 Step: 780000 Loss: 1.0983335 R: [0.04801405] Max nodes: 363
+Epoch: 4 Step: 790000 Loss: 1.0348535 R: [0.01727754] Max nodes: 347
+Epoch: 4 Step: 800000 Loss: 0.005234854 R: [0.9276477] Max nodes: 525
+Epoch: 4 Step: 810000 Loss: 0.02057336 R: [0.85656583] Max nodes: 303
+Epoch: 4 Step: 820000 Loss: 0.83542496 R: [-0.08598419] Max nodes: 338
+Epoch: 4 Step: 830000 Loss: 1.0342807 R: [0.01699593] Max nodes: 292
+Epoch: 4 Step: 840000 Loss: 0.9974127 R: [-0.00129451] Max nodes: 296
+Epoch: 4 Step: 850000 Loss: 0.46741712 R: [-0.31632093] Max nodes: 305
+Epoch: 4 Step: 860000 Loss: 0.9270614 R: [-0.03715973] Max nodes: 500
+Epoch: 4 Step: 870000 Loss: 0.010722877 R: [0.8964487] Max nodes: 367
+Epoch: 4 Step: 880000 Loss: 0.78616023 R: [-0.11334327] Max nodes: 229
+Epoch: 4 Step: 890000 Loss: 0.8083623 R: [-0.10091028] Max nodes: 369
+Epoch: 4 Step: 900000 Loss: 1.5912472 R: [0.26144645] Max nodes: 276
+Epoch: 4 Step: 910000 Loss: 0.91956973 R: [-0.04105799] Max nodes: 360
+Epoch: 4 Step: 920000 Loss: 0.6073081 R: [-0.22070025] Max nodes: 336
+Epoch: 4 Step: 930000 Loss: 1.4558927 R: [0.20660372] Max nodes: 201
+Epoch: 4 Step: 940000 Loss: 0.85520923 R: [-0.07522474] Max nodes: 220
+Epoch: 4 Step: 950000 Loss: 0.71419823 R: [-0.1548975] Max nodes: 282
+Epoch: 4 Step: 960000 Loss: 0.0007188395 R: [0.9731888] Max nodes: 359
+Epoch: 4 Step: 970000 Loss: 0.74281627 R: [-0.13813211] Max nodes: 523
+Epoch: 4 Step: 980000 Loss: 1.1985542 R: [0.09478492] Max nodes: 310
+Epoch: 4 Step: 990000 Loss: 0.0019822498 R: [0.95547754] Max nodes: 1180
+Epoch: 4 Step: 1000000 Loss: 0.93413675 R: [-0.03349249] Max nodes: 415
+Epoch: 4 Step: 1010000 Loss: 0.5012668 R: [-0.29199803] Max nodes: 316
+Epoch: 4 Step: 1020000 Loss: 0.96359867 R: [-0.01836938] Max nodes: 234
+Epoch: 4 Step: 1030000 Loss: 0.71694726 R: [-0.15327261] Max nodes: 485
+Epoch: 4 Step: 1040000 Loss: 0.7893161 R: [-0.11156534] Max nodes: 620
+Epoch: 4 Step: 1050000 Loss: 0.9177897 R: [-0.04198661] Max nodes: 342
+Epoch: 4 Step: 1060000 Loss: 1.1192058 R: [0.05792522] Max nodes: 495
+Epoch: 4 Step: 1070000 Loss: 0.0013311651 R: [0.96351486] Max nodes: 499
+maxstep:
+13
+starttest:
+testdata
+
+threaholder:
+0.6000000000000001
+recall_test:0.2231404958677686
+precision_test:1.0
+f1score_test:0.3648648648648649
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/209.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/209.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/130.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/130.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/138.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/138.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/148.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/148.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/114.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/114.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/191.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/191.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/166.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/166.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/176.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/176.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/179.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/179.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/109.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/109.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/143.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/143.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/137.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/137.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/182.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/182.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/117.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/117.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/102.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/102.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/129.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/129.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/104.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/104.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/204.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/204.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/106.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/106.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/196.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/196.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/203.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/203.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/158.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/158.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/145.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/145.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/210.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/210.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/136.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/136.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/150.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/150.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/134.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/134.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/205.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/205.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/167.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/167.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/194.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/194.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/170.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/170.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/131.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/131.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/206.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/206.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/146.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/146.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/185.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/185.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/112.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/112.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/168.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/168.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/212.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/212.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/219.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/219.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/218.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/218.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/186.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/186.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/103.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/103.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/149.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/149.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/173.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/173.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/180.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/180.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/197.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/197.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/133.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/133.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/144.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/144.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/127.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/127.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/118.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/118.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/142.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/142.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/195.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/195.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/151.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/151.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/193.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/193.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/122.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/122.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/207.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/207.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/192.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/192.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/214.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/214.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/198.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/198.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/220.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/220.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/126.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/126.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/161.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/161.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/165.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/165.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/200.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/200.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/188.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/188.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/184.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/184.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/125.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/125.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/141.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/141.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/140.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/140.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/174.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/174.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/153.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/153.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/160.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/160.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/211.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/211.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/120.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/120.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/157.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/157.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/169.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/169.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/178.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/178.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/172.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/172.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/156.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/156.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/162.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/162.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/154.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/154.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/189.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/189.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/123.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/123.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/208.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/208.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/105.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/105.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/190.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/190.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/101.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/101.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/171.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/171.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/147.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/147.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/159.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/159.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/201.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/201.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/124.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/124.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/119.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/119.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/139.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/139.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/216.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/216.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/164.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/164.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/113.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/113.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/115.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/115.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/163.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/163.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/175.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/175.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/121.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/121.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/100.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/100.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/132.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/132.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/108.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/108.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/135.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/135.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/110.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/110.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/128.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/128.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/213.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/213.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/217.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/217.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/111.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/111.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/107.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/107.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/116.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/116.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/202.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/202.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/199.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/199.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/187.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/187.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/152.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/152.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/155.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/155.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/181.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/181.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/183.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/183.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/215.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/215.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/177.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/177.c', '1']
+
+Epoch: 5 Step: 0 Loss: 2.0945451 R: [0.44725433] Max nodes: 413
+Epoch: 5 Step: 10000 Loss: 0.97945195 R: [-0.01032734] Max nodes: 264
+Epoch: 5 Step: 20000 Loss: 0.8016679 R: [-0.10464092] Max nodes: 475
+Epoch: 5 Step: 30000 Loss: 0.7698412 R: [-0.12259405] Max nodes: 222
+Epoch: 5 Step: 40000 Loss: 0.7072989 R: [-0.15898937] Max nodes: 682
+Epoch: 5 Step: 50000 Loss: 0.9736105 R: [-0.01328296] Max nodes: 1178
+Epoch: 5 Step: 60000 Loss: 1.0344497 R: [0.01707898] Max nodes: 411
+Epoch: 5 Step: 70000 Loss: 0.00042051414 R: [0.97949356] Max nodes: 531
+Epoch: 5 Step: 80000 Loss: 0.60005957 R: [-0.22536486] Max nodes: 390
+Epoch: 5 Step: 90000 Loss: 1.103985 R: [0.05070681] Max nodes: 179
+Epoch: 5 Step: 100000 Loss: 0.91259325 R: [-0.04470252] Max nodes: 396
+Epoch: 5 Step: 110000 Loss: 1.2720875 R: [0.12786855] Max nodes: 280
+Epoch: 5 Step: 120000 Loss: 0.780366 R: [-0.11661676] Max nodes: 444
+Epoch: 5 Step: 130000 Loss: 0.8052316 R: [-0.10265303] Max nodes: 279
+Epoch: 5 Step: 140000 Loss: 0.01101946 R: [0.8950264] Max nodes: 207
+Epoch: 5 Step: 150000 Loss: 1.2675022 R: [0.12583399] Max nodes: 534
+Epoch: 5 Step: 160000 Loss: 0.5176631 R: [-0.28051192] Max nodes: 417
+Epoch: 5 Step: 170000 Loss: 1.100798 R: [0.04918923] Max nodes: 466
+Epoch: 5 Step: 180000 Loss: 0.9211993 R: [-0.04020871] Max nodes: 424
+Epoch: 5 Step: 190000 Loss: 0.84893745 R: [-0.07862199] Max nodes: 511
+Epoch: 5 Step: 200000 Loss: 0.64814734 R: [-0.19492401] Max nodes: 489
+Epoch: 5 Step: 210000 Loss: 0.52027696 R: [-0.27869776] Max nodes: 384
+Epoch: 5 Step: 220000 Loss: 0.67657626 R: [-0.17745748] Max nodes: 564
+Epoch: 5 Step: 230000 Loss: 0.9434436 R: [-0.02868976] Max nodes: 319
+Epoch: 5 Step: 240000 Loss: 0.99858093 R: [-0.00070978] Max nodes: 216
+Epoch: 5 Step: 250000 Loss: 0.92884856 R: [-0.03623213] Max nodes: 747
+Epoch: 5 Step: 260000 Loss: 0.005888867 R: [0.92326105] Max nodes: 824
+Epoch: 5 Step: 270000 Loss: 0.00075831526 R: [0.9724625] Max nodes: 619
+Epoch: 5 Step: 280000 Loss: 0.0061798324 R: [0.9213881] Max nodes: 426
+Epoch: 5 Step: 290000 Loss: 0.6546038 R: [-0.1909241] Max nodes: 379
+Epoch: 5 Step: 300000 Loss: 0.7805874 R: [-0.11649141] Max nodes: 620
+Epoch: 5 Step: 310000 Loss: 0.7310332 R: [-0.14499523] Max nodes: 358
+Epoch: 5 Step: 320000 Loss: 1.054323 R: [0.02680226] Max nodes: 448
+Epoch: 5 Step: 330000 Loss: 0.94703114 R: [-0.02684474] Max nodes: 318
+Epoch: 5 Step: 340000 Loss: 0.6586785 R: [-0.1884099] Max nodes: 278
+Epoch: 5 Step: 350000 Loss: 0.7767799 R: [-0.11864884] Max nodes: 270
+Epoch: 5 Step: 360000 Loss: 0.0022767049 R: [0.9522852] Max nodes: 193
+Epoch: 5 Step: 370000 Loss: 0.0009987408 R: [0.96839714] Max nodes: 340
+Epoch: 5 Step: 380000 Loss: 0.83421147 R: [-0.0866482] Max nodes: 347
+Epoch: 5 Step: 390000 Loss: 0.8731458 R: [-0.06557728] Max nodes: 456
+Epoch: 5 Step: 400000 Loss: 0.83753496 R: [-0.08483065] Max nodes: 383
+Epoch: 5 Step: 410000 Loss: 0.014072778 R: [0.88137126] Max nodes: 233
+Epoch: 5 Step: 420000 Loss: 0.90076447 R: [-0.05091386] Max nodes: 356
+Epoch: 5 Step: 430000 Loss: 0.6803837 R: [-0.17514627] Max nodes: 641
+Epoch: 5 Step: 440000 Loss: 0.0019221539 R: [0.9561576] Max nodes: 297
+Epoch: 5 Step: 450000 Loss: 0.0002110188 R: [0.9854735] Max nodes: 202
+Epoch: 5 Step: 460000 Loss: 0.841057 R: [-0.0829084] Max nodes: 725
+Epoch: 5 Step: 470000 Loss: 0.82099915 R: [-0.09390996] Max nodes: 443
+Epoch: 5 Step: 480000 Loss: 0.0021032265 R: [0.95413905] Max nodes: 175
+Epoch: 5 Step: 490000 Loss: 0.5175662 R: [-0.28057927] Max nodes: 359
+Epoch: 5 Step: 500000 Loss: 0.7974998 R: [-0.10697158] Max nodes: 363
+Epoch: 5 Step: 510000 Loss: 0.88399625 R: [-0.05978922] Max nodes: 415
+Epoch: 5 Step: 520000 Loss: 0.002746284 R: [0.947595] Max nodes: 433
+Epoch: 5 Step: 530000 Loss: 0.8228902 R: [-0.09286701] Max nodes: 612
+Epoch: 5 Step: 540000 Loss: 0.013736165 R: [0.8827986] Max nodes: 387
+Epoch: 5 Step: 550000 Loss: 0.026719294 R: [0.8365396] Max nodes: 327
+Epoch: 5 Step: 560000 Loss: 1.063925 R: [0.03146743] Max nodes: 211
+Epoch: 5 Step: 570000 Loss: 0.696083 R: [-0.1656841] Max nodes: 377
+Epoch: 5 Step: 580000 Loss: 0.8034002 R: [-0.10367407] Max nodes: 348
+Epoch: 5 Step: 590000 Loss: 0.8193637 R: [-0.09481288] Max nodes: 420
+Epoch: 5 Step: 600000 Loss: 1.0665034 R: [0.03271655] Max nodes: 444
+Epoch: 5 Step: 610000 Loss: 0.5868462 R: [-0.23394114] Max nodes: 1113
+Epoch: 5 Step: 620000 Loss: 0.7262516 R: [-0.14779602] Max nodes: 540
+Epoch: 5 Step: 630000 Loss: 0.038643412 R: [0.8034207] Max nodes: 256
+Epoch: 5 Step: 640000 Loss: 0.83061314 R: [-0.08862021] Max nodes: 401
+Epoch: 5 Step: 650000 Loss: 0.63910514 R: [-0.20055947] Max nodes: 386
+Epoch: 5 Step: 660000 Loss: 0.7904684 R: [-0.11091708] Max nodes: 486
+Epoch: 5 Step: 670000 Loss: 1.2208806 R: [0.10493471] Max nodes: 476
+Epoch: 5 Step: 680000 Loss: 0.86763424 R: [-0.06853116] Max nodes: 319
+Epoch: 5 Step: 690000 Loss: 0.8698709 R: [-0.06733134] Max nodes: 475
+Epoch: 5 Step: 700000 Loss: 0.65258723 R: [-0.19217129] Max nodes: 609
+Epoch: 5 Step: 710000 Loss: 0.0062761195 R: [0.92077804] Max nodes: 665
+Epoch: 5 Step: 720000 Loss: 0.0017396511 R: [0.9582909] Max nodes: 281
+Epoch: 5 Step: 730000 Loss: 0.5984707 R: [-0.22639115] Max nodes: 485
+Epoch: 5 Step: 740000 Loss: 0.00045353334 R: [0.9787037] Max nodes: 202
+Epoch: 5 Step: 750000 Loss: 0.81045836 R: [-0.09974539] Max nodes: 453
+Epoch: 5 Step: 760000 Loss: 0.8837198 R: [-0.0599363] Max nodes: 332
+Epoch: 5 Step: 770000 Loss: 0.7336215 R: [-0.14348291] Max nodes: 291
+Epoch: 5 Step: 780000 Loss: 1.0680335 R: [0.03345709] Max nodes: 363
+Epoch: 5 Step: 790000 Loss: 1.0247651 R: [0.01230684] Max nodes: 347
+Epoch: 5 Step: 800000 Loss: 0.0049931384 R: [0.92933786] Max nodes: 525
+Epoch: 5 Step: 810000 Loss: 0.017015247 R: [0.8695575] Max nodes: 303
+Epoch: 5 Step: 820000 Loss: 0.8647507 R: [-0.07008027] Max nodes: 338
+Epoch: 5 Step: 830000 Loss: 1.1191064 R: [0.05787826] Max nodes: 292
+Epoch: 5 Step: 840000 Loss: 1.0158143 R: [0.00787617] Max nodes: 296
+Epoch: 5 Step: 850000 Loss: 0.4896866 R: [-0.3002239] Max nodes: 305
+Epoch: 5 Step: 860000 Loss: 0.8476723 R: [-0.07930879] Max nodes: 500
+Epoch: 5 Step: 870000 Loss: 0.008472646 R: [0.907953] Max nodes: 367
+Epoch: 5 Step: 880000 Loss: 0.79262877 R: [-0.10970302] Max nodes: 229
+Epoch: 5 Step: 890000 Loss: 0.84008825 R: [-0.08343676] Max nodes: 369
+Epoch: 5 Step: 900000 Loss: 1.5090972 R: [0.22845319] Max nodes: 276
+Epoch: 5 Step: 910000 Loss: 0.924515 R: [-0.03848295] Max nodes: 360
+Epoch: 5 Step: 920000 Loss: 0.5627946 R: [-0.2498036] Max nodes: 336
+Epoch: 5 Step: 930000 Loss: 1.404293 R: [0.18502867] Max nodes: 201
+Epoch: 5 Step: 940000 Loss: 0.8145998 R: [-0.09744816] Max nodes: 220
+Epoch: 5 Step: 950000 Loss: 0.6975886 R: [-0.16478232] Max nodes: 282
+Epoch: 5 Step: 960000 Loss: 0.0005172705 R: [0.9772564] Max nodes: 359
+Epoch: 5 Step: 970000 Loss: 0.7369337 R: [-0.14155155] Max nodes: 523
+Epoch: 5 Step: 980000 Loss: 1.1661918 R: [0.07990354] Max nodes: 310
+Epoch: 5 Step: 990000 Loss: 0.001425441 R: [0.962245] Max nodes: 1180
+Epoch: 5 Step: 1000000 Loss: 0.8829196 R: [-0.060362] Max nodes: 415
+Epoch: 5 Step: 1010000 Loss: 0.48889968 R: [-0.30078638] Max nodes: 316
+Epoch: 5 Step: 1020000 Loss: 0.9534299 R: [-0.02356266] Max nodes: 234
+Epoch: 5 Step: 1030000 Loss: 0.7752592 R: [-0.11951199] Max nodes: 485
+Epoch: 5 Step: 1040000 Loss: 0.78110397 R: [-0.11619916] Max nodes: 620
+Epoch: 5 Step: 1050000 Loss: 0.92376035 R: [-0.03887546] Max nodes: 342
+Epoch: 5 Step: 1060000 Loss: 1.196383 R: [0.09379292] Max nodes: 495
+Epoch: 5 Step: 1070000 Loss: 0.00121111 R: [0.965199] Max nodes: 499
+maxstep:
+13
+starttest:
+testdata
+
+threaholder:
+0.6000000000000001
+recall_test:0.2066115702479339
+precision_test:1.0
+f1score_test:0.34246575342465757
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/209.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/209.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/130.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/130.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/138.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/138.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/148.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/148.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/114.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/114.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/191.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/191.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/166.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/166.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/176.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/176.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/179.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/179.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/109.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/109.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/143.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/143.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/137.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/137.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/182.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/182.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/117.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/117.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/102.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/102.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/129.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/129.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/104.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/104.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/204.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/204.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/106.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/106.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/196.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/196.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/203.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/203.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/158.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/158.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/145.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/145.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/210.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/210.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/136.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/136.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/150.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/150.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/134.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/134.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/205.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/205.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/167.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/167.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/194.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/194.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/170.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/170.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/131.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/131.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/206.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/206.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/146.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/146.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/185.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/185.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/112.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/112.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/168.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/168.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/212.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/212.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/219.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/219.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/218.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/218.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/186.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/186.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/103.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/103.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/149.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/149.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/173.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/173.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/180.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/180.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/197.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/197.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/133.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/133.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/144.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/144.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/127.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/127.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/118.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/118.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/142.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/142.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/195.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/195.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/151.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/151.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/193.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/193.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/122.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/122.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/207.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/207.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/192.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/192.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/214.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/214.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/198.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/198.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/220.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/220.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/126.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/126.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/161.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/161.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/165.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/165.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/200.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/200.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/188.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/188.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/184.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/184.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/125.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/125.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/141.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/141.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/140.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/140.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/174.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/174.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/153.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/153.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/160.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/160.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/211.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/211.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/120.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/120.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/157.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/157.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/169.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/169.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/178.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/178.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/172.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/172.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/156.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/156.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/162.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/162.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/154.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/154.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/189.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/189.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/123.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/123.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/208.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/208.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/105.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/105.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/190.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/190.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/101.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/101.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/171.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/171.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/147.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/147.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/159.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/159.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/201.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/201.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/124.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/124.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/119.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/119.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/139.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/139.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/216.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/216.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/164.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/164.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/113.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/113.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/115.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/115.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/163.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/163.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/175.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/175.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/121.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/121.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/100.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/100.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/132.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/132.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/108.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/108.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/135.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/135.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/110.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/110.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/128.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/128.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/213.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/213.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/217.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/217.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/111.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/111.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/107.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/107.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/116.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/116.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/202.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/202.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/199.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/199.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/187.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/187.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/152.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/152.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/155.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/155.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/181.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/181.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/183.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/183.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/215.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/215.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/177.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/177.c', '1']
+
+Epoch: 6 Step: 0 Loss: 2.042419 R: [0.42913228] Max nodes: 413
+Epoch: 6 Step: 10000 Loss: 0.9396682 R: [-0.0306352] Max nodes: 264
+Epoch: 6 Step: 20000 Loss: 0.7630227 R: [-0.12648825] Max nodes: 475
+Epoch: 6 Step: 30000 Loss: 0.800369 R: [-0.10536654] Max nodes: 222
+Epoch: 6 Step: 40000 Loss: 0.6899148 R: [-0.16938889] Max nodes: 682
+Epoch: 6 Step: 50000 Loss: 0.881702 R: [-0.06101015] Max nodes: 1178
+Epoch: 6 Step: 60000 Loss: 0.9963994 R: [-0.00180189] Max nodes: 411
+Epoch: 6 Step: 70000 Loss: 0.00043543626 R: [0.9791329] Max nodes: 531
+Epoch: 6 Step: 80000 Loss: 0.6025198 R: [-0.22377852] Max nodes: 390
+Epoch: 6 Step: 90000 Loss: 1.0513831 R: [0.02536976] Max nodes: 179
+Epoch: 6 Step: 100000 Loss: 0.9302633 R: [-0.03549845] Max nodes: 396
+Epoch: 6 Step: 110000 Loss: 1.2775394 R: [0.13028288] Max nodes: 280
+Epoch: 6 Step: 120000 Loss: 0.74042666 R: [-0.1395195] Max nodes: 444
+Epoch: 6 Step: 130000 Loss: 0.8016704 R: [-0.10463952] Max nodes: 279
+Epoch: 6 Step: 140000 Loss: 0.0069854697 R: [0.9164209] Max nodes: 207
+Epoch: 6 Step: 150000 Loss: 1.2434287 R: [0.11509127] Max nodes: 534
+Epoch: 6 Step: 160000 Loss: 0.57266414 R: [-0.24325426] Max nodes: 417
+Epoch: 6 Step: 170000 Loss: 1.0758332 R: [0.03722384] Max nodes: 466
+Epoch: 6 Step: 180000 Loss: 0.8973759 R: [-0.05270074] Max nodes: 424
+Epoch: 6 Step: 190000 Loss: 0.8185516 R: [-0.0952616] Max nodes: 511
+Epoch: 6 Step: 200000 Loss: 0.61467963 R: [-0.21598496] Max nodes: 489
+Epoch: 6 Step: 210000 Loss: 0.5452298 R: [-0.26160324] Max nodes: 384
+Epoch: 6 Step: 220000 Loss: 0.64826435 R: [-0.19485135] Max nodes: 564
+Epoch: 6 Step: 230000 Loss: 0.9291249 R: [-0.03608877] Max nodes: 319
+Epoch: 6 Step: 240000 Loss: 0.9864157 R: [-0.00681538] Max nodes: 216
+Epoch: 6 Step: 250000 Loss: 0.9075926 R: [-0.04732344] Max nodes: 747
+Epoch: 6 Step: 260000 Loss: 0.004631058 R: [0.9319481] Max nodes: 824
+Epoch: 6 Step: 270000 Loss: 0.00069820526 R: [0.9735764] Max nodes: 619
+Epoch: 6 Step: 280000 Loss: 0.0058471714 R: [0.9235332] Max nodes: 426
+Epoch: 6 Step: 290000 Loss: 0.6355633 R: [-0.20277776] Max nodes: 379
+Epoch: 6 Step: 300000 Loss: 0.80095154 R: [-0.10504103] Max nodes: 620
+Epoch: 6 Step: 310000 Loss: 0.72721714 R: [-0.14722975] Max nodes: 358
+Epoch: 6 Step: 320000 Loss: 0.99651057 R: [-0.00174626] Max nodes: 448
+Epoch: 6 Step: 330000 Loss: 0.925719 R: [-0.03785707] Max nodes: 318
+Epoch: 6 Step: 340000 Loss: 0.6448417 R: [-0.19697961] Max nodes: 278
+Epoch: 6 Step: 350000 Loss: 0.78632635 R: [-0.11324953] Max nodes: 270
+Epoch: 6 Step: 360000 Loss: 0.0015699886 R: [0.9603769] Max nodes: 193
+Epoch: 6 Step: 370000 Loss: 0.00077625853 R: [0.9721386] Max nodes: 340
+Epoch: 6 Step: 380000 Loss: 0.8039543 R: [-0.10336502] Max nodes: 347
+Epoch: 6 Step: 390000 Loss: 0.8669358 R: [-0.06890611] Max nodes: 456
+Epoch: 6 Step: 400000 Loss: 0.8395023 R: [-0.08375642] Max nodes: 383
+Epoch: 6 Step: 410000 Loss: 0.011038727 R: [0.89493465] Max nodes: 233
+Epoch: 6 Step: 420000 Loss: 0.91232747 R: [-0.04484162] Max nodes: 356
+Epoch: 6 Step: 430000 Loss: 0.7355937 R: [-0.14233242] Max nodes: 641
+Epoch: 6 Step: 440000 Loss: 0.0015389827 R: [0.96077013] Max nodes: 297
+Epoch: 6 Step: 450000 Loss: 0.00015818686 R: [0.98742276] Max nodes: 202
+Epoch: 6 Step: 460000 Loss: 0.83720464 R: [-0.08501115] Max nodes: 725
+Epoch: 6 Step: 470000 Loss: 0.85414684 R: [-0.07579935] Max nodes: 443
+Epoch: 6 Step: 480000 Loss: 0.0017600615 R: [0.9580469] Max nodes: 175
+Epoch: 6 Step: 490000 Loss: 0.56910187 R: [-0.24561161] Max nodes: 359
+Epoch: 6 Step: 500000 Loss: 0.8263151 R: [-0.09098125] Max nodes: 363
+Epoch: 6 Step: 510000 Loss: 0.86619884 R: [-0.06930193] Max nodes: 415
+Epoch: 6 Step: 520000 Loss: 0.0024837793 R: [0.9501625] Max nodes: 433
+Epoch: 6 Step: 530000 Loss: 0.7093124 R: [-0.15779315] Max nodes: 612
+Epoch: 6 Step: 540000 Loss: 0.013675457 R: [0.8830579] Max nodes: 387
+Epoch: 6 Step: 550000 Loss: 0.022371182 R: [0.85043] Max nodes: 327
+Epoch: 6 Step: 560000 Loss: 0.99057925 R: [-0.00472151] Max nodes: 211
+Epoch: 6 Step: 570000 Loss: 0.73191166 R: [-0.14448169] Max nodes: 377
+Epoch: 6 Step: 580000 Loss: 0.8030736 R: [-0.10385627] Max nodes: 348
+Epoch: 6 Step: 590000 Loss: 0.7798928 R: [-0.11688458] Max nodes: 420
+Epoch: 6 Step: 600000 Loss: 1.1078318 R: [0.05253588] Max nodes: 444
+Epoch: 6 Step: 610000 Loss: 0.6411405 R: [-0.19928747] Max nodes: 1113
+Epoch: 6 Step: 620000 Loss: 0.7129249 R: [-0.1556512] Max nodes: 540
+Epoch: 6 Step: 630000 Loss: 0.033119395 R: [0.81801265] Max nodes: 256
+Epoch: 6 Step: 640000 Loss: 0.8604608 R: [-0.07238975] Max nodes: 401
+Epoch: 6 Step: 650000 Loss: 0.64714986 R: [-0.1955438] Max nodes: 386
+Epoch: 6 Step: 660000 Loss: 0.8078454 R: [-0.10119776] Max nodes: 486
+Epoch: 6 Step: 670000 Loss: 1.1862022 R: [0.08912911] Max nodes: 476
+Epoch: 6 Step: 680000 Loss: 0.8150085 R: [-0.09722178] Max nodes: 319
+Epoch: 6 Step: 690000 Loss: 0.87552387 R: [-0.06430566] Max nodes: 475
+Epoch: 6 Step: 700000 Loss: 0.64101005 R: [-0.19936897] Max nodes: 609
+Epoch: 6 Step: 710000 Loss: 0.005957566 R: [0.9228147] Max nodes: 665
+Epoch: 6 Step: 720000 Loss: 0.0014667924 R: [0.9617013] Max nodes: 281
+Epoch: 6 Step: 730000 Loss: 0.59252375 R: [-0.23024434] Max nodes: 485
+Epoch: 6 Step: 740000 Loss: 0.00035476653 R: [0.98116475] Max nodes: 202
+Epoch: 6 Step: 750000 Loss: 0.84017664 R: [-0.08338851] Max nodes: 453
+Epoch: 6 Step: 760000 Loss: 0.8890775 R: [-0.05709095] Max nodes: 332
+Epoch: 6 Step: 770000 Loss: 0.7096872 R: [-0.15757068] Max nodes: 291
+Epoch: 6 Step: 780000 Loss: 1.0277182 R: [0.01376438] Max nodes: 363
+Epoch: 6 Step: 790000 Loss: 1.0059304 R: [0.00296075] Max nodes: 347
+Epoch: 6 Step: 800000 Loss: 0.004328159 R: [0.93421125] Max nodes: 525
+Epoch: 6 Step: 810000 Loss: 0.013709563 R: [0.88291216] Max nodes: 303
+Epoch: 6 Step: 820000 Loss: 0.8761297 R: [-0.06398199] Max nodes: 338
+Epoch: 6 Step: 830000 Loss: 1.1524353 R: [0.07351538] Max nodes: 292
+Epoch: 6 Step: 840000 Loss: 1.0230273 R: [0.01144817] Max nodes: 296
+Epoch: 6 Step: 850000 Loss: 0.4864024 R: [-0.30257446] Max nodes: 305
+Epoch: 6 Step: 860000 Loss: 0.8686361 R: [-0.06799354] Max nodes: 500
+Epoch: 6 Step: 870000 Loss: 0.0076614413 R: [0.91247034] Max nodes: 367
+Epoch: 6 Step: 880000 Loss: 0.79477596 R: [-0.10849793] Max nodes: 229
+Epoch: 6 Step: 890000 Loss: 0.8671134 R: [-0.06881078] Max nodes: 369
+Epoch: 6 Step: 900000 Loss: 1.5010436 R: [0.22517091] Max nodes: 276
+Epoch: 6 Step: 910000 Loss: 0.9267741 R: [-0.03730896] Max nodes: 360
+Epoch: 6 Step: 920000 Loss: 0.56289524 R: [-0.24973655] Max nodes: 336
+Epoch: 6 Step: 930000 Loss: 1.3476025 R: [0.16086279] Max nodes: 201
+Epoch: 6 Step: 940000 Loss: 0.7894963 R: [-0.11146396] Max nodes: 220
+Epoch: 6 Step: 950000 Loss: 0.7087368 R: [-0.15813491] Max nodes: 282
+Epoch: 6 Step: 960000 Loss: 0.00035853742 R: [0.9810649] Max nodes: 359
+Epoch: 6 Step: 970000 Loss: 0.72556615 R: [-0.1481983] Max nodes: 523
+Epoch: 6 Step: 980000 Loss: 1.2085813 R: [0.099355] Max nodes: 310
+Epoch: 6 Step: 990000 Loss: 0.00097640604 R: [0.9687525] Max nodes: 1180
+Epoch: 6 Step: 1000000 Loss: 0.86969835 R: [-0.06742379] Max nodes: 415
+Epoch: 6 Step: 1010000 Loss: 0.4897214 R: [-0.30019903] Max nodes: 316
+Epoch: 6 Step: 1020000 Loss: 0.96544915 R: [-0.01742725] Max nodes: 234
+Epoch: 6 Step: 1030000 Loss: 0.8063187 R: [-0.10204753] Max nodes: 485
+Epoch: 6 Step: 1040000 Loss: 0.7961771 R: [-0.10771246] Max nodes: 620
+Epoch: 6 Step: 1050000 Loss: 0.9242915 R: [-0.03859922] Max nodes: 342
+Epoch: 6 Step: 1060000 Loss: 1.2582864 R: [0.12173367] Max nodes: 495
+Epoch: 6 Step: 1070000 Loss: 0.0010701752 R: [0.96728647] Max nodes: 499
+maxstep:
+13
+starttest:
+testdata
+
+threaholder:
+0.6000000000000001
+recall_test:0.2066115702479339
+precision_test:1.0
+f1score_test:0.34246575342465757
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/209.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/209.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/130.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/130.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/138.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/138.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/148.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/148.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/114.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/114.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/191.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/191.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/166.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/166.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/176.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/176.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/179.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/179.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/109.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/109.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/143.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/143.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/137.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/137.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/182.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/182.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/117.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/117.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/102.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/102.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/129.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/129.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/104.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/104.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/204.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/204.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/106.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/106.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/196.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/196.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/203.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/203.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/158.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/158.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/145.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/145.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/210.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/210.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/136.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/136.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/150.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/150.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/134.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/134.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/205.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/205.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/167.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/167.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/194.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/194.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/170.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/170.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/131.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/131.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/206.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/206.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/146.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/146.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/185.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/185.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/112.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/112.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/168.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/168.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/212.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/212.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/219.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/219.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/218.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/218.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/186.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/186.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/103.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/103.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/149.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/149.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/173.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/173.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/180.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/180.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/197.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/197.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/133.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/133.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/144.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/144.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/127.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/127.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/118.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/118.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/142.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/142.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/195.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/195.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/151.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/151.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/193.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/193.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/122.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/122.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/207.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/207.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/192.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/192.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/214.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/214.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/198.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/198.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/220.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/220.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/126.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/126.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/161.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/161.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/165.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/165.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/200.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/200.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/188.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/188.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/184.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/184.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/125.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/125.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/141.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/141.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/140.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/140.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/174.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/174.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/153.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/153.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/160.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/160.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/211.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/211.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/120.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/120.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/157.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/157.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/169.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/169.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/178.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/178.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/172.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/172.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/156.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/156.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/162.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/162.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/154.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/154.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/189.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/189.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/123.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/123.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/208.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/208.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/105.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/105.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/190.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/190.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/101.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/101.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/171.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/171.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/147.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/147.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/159.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/159.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/201.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/201.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/124.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/124.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/119.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/119.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/139.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/139.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/216.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/216.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/164.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/164.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/113.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/113.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/115.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/115.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/163.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/163.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/175.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/175.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/121.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/121.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/100.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/100.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/132.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/132.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/108.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/108.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/135.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/135.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/110.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/110.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/128.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/128.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/213.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/213.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/217.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/217.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/111.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/111.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/107.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/107.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/116.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/116.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/202.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/202.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/199.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/199.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/187.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/187.c', '1']
+correct: 1  predict: 1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/152.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/152.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/155.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/155.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/181.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/181.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/183.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/183.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/215.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/215.c', '1']
+correct: 1  predict: -1 clone_paris: ['/home/zww/paper_data/TBCCD/TestDate/ProgramsDump/177.c', '/home/zww/paper_data/TBCCD/TestDate/ProgramsMutate/177.c', '1']
+
+Epoch: 7 Step: 0 Loss: 1.9892192 R: [0.41039675] Max nodes: 413
+Epoch: 7 Step: 10000 Loss: 0.9487562 R: [-0.02595883] Max nodes: 264
+Epoch: 7 Step: 20000 Loss: 0.713838 R: [-0.15511067] Max nodes: 475
+Epoch: 7 Step: 30000 Loss: 0.8204642 R: [-0.09420519] Max nodes: 222
+Epoch: 7 Step: 40000 Loss: 0.69296134 R: [-0.16755703] Max nodes: 682
+Epoch: 7 Step: 50000 Loss: 0.85680765 R: [-0.07436097] Max nodes: 1178
+Epoch: 7 Step: 60000 Loss: 0.9735398 R: [-0.01331877] Max nodes: 411
+Epoch: 7 Step: 70000 Loss: 0.000443099 R: [0.9789501] Max nodes: 531
+Epoch: 7 Step: 80000 Loss: 0.59998405 R: [-0.22541362] Max nodes: 390
+Epoch: 7 Step: 90000 Loss: 1.0097042 R: [0.00484041] Max nodes: 179
+Epoch: 7 Step: 100000 Loss: 0.951817 R: [-0.0243889] Max nodes: 396
+Epoch: 7 Step: 110000 Loss: 1.2368958 R: [0.11215813] Max nodes: 280
+Epoch: 7 Step: 120000 Loss: 0.75117695 R: [-0.13329537] Max nodes: 444
+Epoch: 7 Step: 130000 Loss: 0.78905505 R: [-0.11171228] Max nodes: 279
+Epoch: 7 Step: 140000 Loss: 0.0041757235 R: [0.93538016] Max nodes: 207
+Epoch: 7 Step: 150000 Loss: 1.2185878 R: [0.10389666] Max nodes: 534
+Epoch: 7 Step: 160000 Loss: 0.66142386 R: [-0.1867203] Max nodes: 417
+Epoch: 7 Step: 170000 Loss: 1.0176936 R: [0.00880799] Max nodes: 466
+Epoch: 7 Step: 180000 Loss: 0.8606141 R: [-0.07230708] Max nodes: 424
+Epoch: 7 Step: 190000 Loss: 0.7856468 R: [-0.11363282] Max nodes: 511
+Epoch: 7 Step: 200000 Loss: 0.59654075 R: [-0.22763951] Max nodes: 489
+Epoch: 7 Step: 210000 Loss: 0.58575857 R: [-0.2346513] Max nodes: 384
+Epoch: 7 Step: 220000 Loss: 0.6240476 R: [-0.21003321] Max nodes: 564
+Epoch: 7 Step: 230000 Loss: 0.91572934 R: [-0.04306249] Max nodes: 319
+Epoch: 7 Step: 240000 Loss: 0.99259406 R: [-0.00370982] Max nodes: 216
+Epoch: 7 Step: 250000 Loss: 0.8975752 R: [-0.05259554] Max nodes: 747
+Epoch: 7 Step: 260000 Loss: 0.0036866684 R: [0.93928206] Max nodes: 824
+Epoch: 7 Step: 270000 Loss: 0.0006265495 R: [0.974969] Max nodes: 619
+Epoch: 7 Step: 280000 Loss: 0.0054380544 R: [0.92625684] Max nodes: 426
+Epoch: 7 Step: 290000 Loss: 0.634329 R: [-0.20355228] Max nodes: 379
+Epoch: 7 Step: 300000 Loss: 0.8128066 R: [-0.09844214] Max nodes: 620
+Epoch: 7 Step: 310000 Loss: 0.74475867 R: [-0.137006] Max nodes: 358
+Epoch: 7 Step: 320000 Loss: 0.97784674 R: [-0.01113865] Max nodes: 448
+Epoch: 7 Step: 330000 Loss: 0.9305488 R: [-0.03535046] Max nodes: 318
+Epoch: 7 Step: 340000 Loss: 0.65432054 R: [-0.19109914] Max nodes: 278
+Epoch: 7 Step: 350000 Loss: 0.7880593 R: [-0.11227296] Max nodes: 270
+Epoch: 7 Step: 360000 Loss: 0.0011472565 R: [0.9661288] Max nodes: 193
+Epoch: 7 Step: 370000 Loss: 0.00054959586 R: [0.97655654] Max nodes: 340
+Epoch: 7 Step: 380000 Loss: 0.80225027 R: [-0.10431579] Max nodes: 347
+Epoch: 7 Step: 390000 Loss: 0.8599033 R: [-0.07269029] Max nodes: 456
+Epoch: 7 Step: 400000 Loss: 0.82471013 R: [-0.09186448] Max nodes: 383
+Epoch: 7 Step: 410000 Loss: 0.009335083 R: [0.90338176] Max nodes: 233
+Epoch: 7 Step: 420000 Loss: 0.9257304 R: [-0.03785116] Max nodes: 356
+Epoch: 7 Step: 430000 Loss: 0.7756299 R: [-0.11930151] Max nodes: 641
+Epoch: 7 Step: 440000 Loss: 0.0012866837 R: [0.9641296] Max nodes: 297
+Epoch: 7 Step: 450000 Loss: 0.00013034316 R: [0.9885832] Max nodes: 202
+Epoch: 7 Step: 460000 Loss: 0.8359452 R: [-0.08569964] Max nodes: 725
+Epoch: 7 Step: 470000 Loss: 0.8959985 R: [-0.05342805] Max nodes: 443
+Epoch: 7 Step: 480000 Loss: 0.0016016234 R: [0.9599797] Max nodes: 175
+Epoch: 7 Step: 490000 Loss: 0.5954059 R: [-0.22837453] Max nodes: 359
+Epoch: 7 Step: 500000 Loss: 0.8641117 R: [-0.07042388] Max nodes: 363
+Epoch: 7 Step: 510000 Loss: 0.8694093 R: [-0.06757879] Max nodes: 415
+Epoch: 7 Step: 520000 Loss: 0.0013573234 R: [0.96315813] Max nodes: 433
+Epoch: 7 Step: 530000 Loss: 0.6757283 R: [-0.17797305] Max nodes: 612
+Epoch: 7 Step: 540000 Loss: 0.011824758 R: [0.8912583] Max nodes: 387
+Epoch: 7 Step: 550000 Loss: 0.017933628 R: [0.8660835] Max nodes: 327
+Epoch: 7 Step: 560000 Loss: 0.95395374 R: [-0.02329445] Max nodes: 211
+Epoch: 7 Step: 570000 Loss: 0.74153346 R: [-0.1388766] Max nodes: 377
+Epoch: 7 Step: 580000 Loss: 0.7972278 R: [-0.10712383] Max nodes: 348
+Epoch: 7 Step: 590000 Loss: 0.7569369 R: [-0.1299788] Max nodes: 420
+Epoch: 7 Step: 600000 Loss: 1.1159406 R: [0.05638085] Max nodes: 444
+Epoch: 7 Step: 610000 Loss: 0.65513545 R: [-0.19059564] Max nodes: 1113
+Epoch: 7 Step: 620000 Loss: 0.69414335 R: [-0.16684732] Max nodes: 540
+Epoch: 7 Step: 630000 Loss: 0.02948038 R: [0.8283015] Max nodes: 256
+Epoch: 7 Step: 640000 Loss: 0.85269076 R: [-0.07658742] Max nodes: 401
+Epoch: 7 Step: 650000 Loss: 0.6691255 R: [-0.18199912] Max nodes: 386
+Epoch: 7 Step: 660000 Loss: 0.8303 R: [-0.08879201] Max nodes: 486
+Epoch: 7 Step: 670000 Loss: 1.1721226 R: [0.08264609] Max nodes: 476
+Epoch: 7 Step: 680000 Loss: 0.7837717 R: [-0.11469121] Max nodes: 319
+Epoch: 7 Step: 690000 Loss: 0.90227836 R: [-0.05011663] Max nodes: 475
+Epoch: 7 Step: 700000 Loss: 0.65606797 R: [-0.1900198] Max nodes: 609
+Epoch: 7 Step: 710000 Loss: 0.005932042 R: [0.92298025] Max nodes: 665
+Epoch: 7 Step: 720000 Loss: 0.0012335365 R: [0.96487826] Max nodes: 281
+Epoch: 7 Step: 730000 Loss: 0.5921891 R: [-0.23046179] Max nodes: 485
+Epoch: 7 Step: 740000 Loss: 0.00027186252 R: [0.98351175] Max nodes: 202
+Epoch: 7 Step: 750000 Loss: 0.86719686 R: [-0.06876592] Max nodes: 453
+Epoch: 7 Step: 760000 Loss: 0.89019066 R: [-0.05650083] Max nodes: 332
+Epoch: 7 Step: 770000 Loss: 0.7061837 R: [-0.15965267] Max nodes: 291
+Epoch: 7 Step: 780000 Loss: 1.0129479 R: [0.0064531] Max nodes: 363
+Epoch: 7 Step: 790000 Loss: 1.0189223 R: [0.00941684] Max nodes: 347
+Epoch: 7 Step: 800000 Loss: 0.0043635936 R: [0.9339425] Max nodes: 525
+Epoch: 7 Step: 810000 Loss: 0.01151793 R: [0.8926784] Max nodes: 303
+Epoch: 7 Step: 820000 Loss: 0.9155442 R: [-0.04315926] Max nodes: 338
+Epoch: 7 Step: 830000 Loss: 1.1621014 R: [0.07800809] Max nodes: 292
+Epoch: 7 Step: 840000 Loss: 0.9865084 R: [-0.00676872] Max nodes: 296
+Epoch: 7 Step: 850000 Loss: 0.5135614 R: [-0.28336802] Max nodes: 305
+Epoch: 7 Step: 860000 Loss: 0.8496601 R: [-0.07822987] Max nodes: 500
+Epoch: 7 Step: 870000 Loss: 0.006599337 R: [0.9187637] Max nodes: 367
+Epoch: 7 Step: 880000 Loss: 0.7891953 R: [-0.11163338] Max nodes: 229
+Epoch: 7 Step: 890000 Loss: 0.87205744 R: [-0.06615982] Max nodes: 369
+Epoch: 7 Step: 900000 Loss: 1.4554007 R: [0.20639995] Max nodes: 276
+Epoch: 7 Step: 910000 Loss: 0.92497826 R: [-0.03824208] Max nodes: 360
+Epoch: 7 Step: 920000 Loss: 0.56416583 R: [-0.24889028] Max nodes: 336
+Epoch: 7 Step: 930000 Loss: 1.2900232 R: [0.1357919] Max nodes: 201
+Epoch: 7 Step: 940000 Loss: 0.77080625 R: [-0.12204424] Max nodes: 220
+Epoch: 7 Step: 950000 Loss: 0.70116574 R: [-0.16264363] Max nodes: 282
+Epoch: 7 Step: 960000 Loss: 0.00031992118 R: [0.98211366] Max nodes: 359
+Epoch: 7 Step: 970000 Loss: 0.71006376 R: [-0.15734717] Max nodes: 523
+Epoch: 7 Step: 980000 Loss: 1.2075263 R: [0.09887504] Max nodes: 310
+Epoch: 7 Step: 990000 Loss: 0.00079578976 R: [0.97179025] Max nodes: 1180
+Epoch: 7 Step: 1000000 Loss: 0.8478908 R: [-0.07919013] Max nodes: 415
+Epoch: 7 Step: 1010000 Loss: 0.50901353 R: [-0.28654814] Max nodes: 316
+Epoch: 7 Step: 1020000 Loss: 0.93566006 R: [-0.03270475] Max nodes: 234
+Epoch: 7 Step: 1030000 Loss: 0.8260997 R: [-0.09109972] Max nodes: 485
+Epoch: 7 Step: 1040000 Loss: 0.8086392 R: [-0.10075629] Max nodes: 620
+Epoch: 7 Step: 1050000 Loss: 0.8975115 R: [-0.05262917] Max nodes: 342
+Epoch: 7 Step: 1060000 Loss: 1.3151722 R: [0.14680956] Max nodes: 495
+Epoch: 7 Step: 1070000 Loss: 0.00087532186 R: [0.97041416] Max nodes: 499

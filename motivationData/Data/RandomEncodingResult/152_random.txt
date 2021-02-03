@@ -1,0 +1,33 @@
+test.c
+../CountResult/10IncrementAssign.count
+1 
+../CountResult/11Constant.count
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 
+../CountResult/12Define.count
+1 1 
+../CountResult/13JunkCode.count
+1 0 0 1 0 
+../CountResult/14Exchange.count
+0 0 
+../CountResult/15Delete.count
+0 
+../CountResult/1Rename.count
+0 1 1 0 0 1 
+../CountResult/2For.count
+1 1 0 1 
+../CountResult/3While.count
+
+../CountResult/4DoWhile.count
+
+../CountResult/5IfElseIf.count
+
+../CountResult/6IfElse.count
+
+../CountResult/7Switch.count
+
+../CountResult/8Logic.count
+0 0 0 0 
+../CountResult/9SelfOperator.count
+0 0 0 1 
+COST TIME: 0min 2s
+COST TIME: 0min 2s

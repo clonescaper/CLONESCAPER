@@ -1,0 +1,14 @@
+The data used in the paper motivation is saved here.
+
+Here we transformed #1 in motivation using a randomized algorithm to generate a lot of equivalent clone codes and then tested it with three tools to find clone pairs that were not detected by any of the three tools.
+
+OriginalChangedPair holds the corresponding clone pairs.
+In the 142
+1.c corresponds to #1 Original Code
+2.c corresponds to #6 Mutated code
+
+
+ProgramsDump corresponds to the unchanged original code.
+ProgramsMutate is the code after the corresponding equivalent mutation.
+
+The RandomEncodingResult holds the corresponding random codes.
