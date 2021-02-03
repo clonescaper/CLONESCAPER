@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 💬 Ask me about ...
 
-Our dataset and tools will be publicly available later.
+Our datasets and tool will be publicly available later.
