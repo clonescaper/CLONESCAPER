@@ -169,6 +169,11 @@
 <h2>Tool Description<a class="headerlink" href="#tool-description" title="Permalink to this headline">¶</a></h2>
 <p>CLONESCAPER a lightweight yet practical code transformation approach that challenges recent ML-learning based clone detectors. In Clonescaper, we have developed 15 equivalence transformations (e.g., renaming variables, converting for-loop to while-loop, swapping code order, etc.).</p>
 <p>To quickly find the workable solutions among all possible transformations, we adopt four diﬀerent strategies to search for eﬀective solutions, including All-Mutation (AM), Random-Mutation (RM), Genetic Algorithm (GA), Markov chain Monte Carlo (MCMC).</p>
+<div class="figure align-center" id="id11">
+<a class="reference internal image-reference" href="_images/system.png"><img alt="An adorable ginger cat." src="_images/system.png" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-text">Fig. 1 system overview</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+<p>Fig. 1 illustrates the overall workﬂow of Clonescaper. In general, Clonescaper consists of two phases: the mutation phase and the evaluation phase. The former takes a source code snippet as input, performs code equivalence transformations (i.e., mutation operations), and outputs the mutated code snippets. The latter evaluation phase feeds the original code snippets together with the newly mutated ones to a set of state-of-the-art clone detectors and outputs whether the new code snippets could escape from these detectors.</p>
 </div>
 <div class="section" id="implementation-details">
 <h2>Implementation Details<a class="headerlink" href="#implementation-details" title="Permalink to this headline">¶</a></h2>
