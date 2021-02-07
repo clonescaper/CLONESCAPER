@@ -11,7 +11,7 @@ CLONESCAPER a lightweight yet practical code transformation approach that challe
 To quickly find the workable solutions among all possible transformations, we adopt four diﬀerent strategies to search for eﬀective solutions, including All-Mutation (AM), Random-Mutation (RM), Genetic Algorithm (GA), Markov chain Monte Carlo (MCMC).
 
 .. figure:: system.png
-    :width: 100%
+    :width: 80%
     :alt: An adorable ginger cat.
     :align: center
 
