@@ -1,0 +1,310 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>HOME &mdash; clonescaper 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Motivating Example" href="motivating.html" />
+    <link rel="prev" title="HOME" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> clonescaper
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">HOME</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tool-description">Tool Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#implementation-details">Implementation Details</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clone-detectors-descript">Clone Detectors Descript</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="motivating.html">Motivating Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rq1.html">RQ1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rq2.html">RQ2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rq3.html">RQ3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mutationexample.html">Mutation Example</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">clonescaper</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>HOME</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/main.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="home">
+<h1>HOME<a class="headerlink" href="#home" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="tool-description">
+<h2>Tool Description<a class="headerlink" href="#tool-description" title="Permalink to this headline">¶</a></h2>
+<p>CLONESCAPER a lightweight yet practical code transformation approach that challenges recent ML-learning based clone detectors. In Clonescaper, we have developed 15 equivalence transformations (e.g., renaming variables, converting for-loop to while-loop, swapping code order, etc.).</p>
+<p>To quickly find the workable solutions among all possible transformations, we adopt four diﬀerent strategies to search for eﬀective solutions, including All-Mutation (AM), Random-Mutation (RM), Genetic Algorithm (GA), Markov chain Monte Carlo (MCMC).</p>
+</div>
+<div class="section" id="implementation-details">
+<h2>Implementation Details<a class="headerlink" href="#implementation-details" title="Permalink to this headline">¶</a></h2>
+<p>To evaluate Clonescaper, we select unique code snippets from
+the OJClone datasets. For a given code snippet <em>x</em>, we generate five semantic-preserved variants. We then iteratively pair <em>x</em>, with a variant and feed the code pair to ML-based detectors to see whether they can determine that pair as code clones.</p>
+<p>OJ is a C language database collected by Mou et al <a class="footnote-reference brackets" href="#mou" id="id1">1</a>. It consists of 104 folders; each folder contains diﬀerent implementations of solutions of the same problem</p>
+<p>We select around 20% of the code from each OJClone task to form an initial dataset <img class="math" src="_images/math/44dc64e86c3506d5e5b14f06de55823f8980decf.png" alt="D_{I}"/>, and   apply the four strategies (AM, RM, GA, and MCMC) to <img class="math" src="_images/math/44dc64e86c3506d5e5b14f06de55823f8980decf.png" alt="D_{I}"/> to construct new datasets <img class="math" src="_images/math/3c95fe28e27986572e97a42dc0ebb36205c5a236.png" alt="D_{A}"/>,  <img class="math" src="_images/math/f3ba4b7ada1bf85f450c9933e0d9e5681b3b7f20.png" alt="D_{R}"/>, <img class="math" src="_images/math/3ff5a8ef829335ac96df67447f9733cff013e380.png" alt="D_{G}"/>, and <img class="math" src="_images/math/5ed8fdd79644f2cfa8b287a76922eef414276048.png" alt="D_{M}"/>. The original OJClone dataset has many redundant problem solutions and we only use the distinct solutions after careful inspection.</p>
+<p>In the construction of the new dataset, we use the same code to generate the mutated code with   different strategies. That is, each strategy takes a  code C, and output a new  mutated code C’ to form a code clone pair {C, C’}. Considering the random characteristics of RM, GA, and MCMC, we generate five instances of C’ for each C. Therefore, <img class="math" src="_images/math/64768a399735b05a4b591464719289365a8662ac.png" alt="size(D_{R}) \approx size(D_{G}) \approx size(D_{M}) \approx 5*size(D_{A})"/>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 15%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td></td>
+<td><p>AM</p></td>
+<td><p>RM</p></td>
+<td><p>GA</p></td>
+<td><p>MCMC</p></td>
+</tr>
+<tr class="row-even"><td><p>Clone Pairs</p></td>
+<td><p>10300</p></td>
+<td><p>10394*5</p></td>
+<td><p>10075*5</p></td>
+<td><p>10395*5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Time(m)</p></td>
+<td><p>9.01</p></td>
+<td><p>17.83</p></td>
+<td><p>139.30</p></td>
+<td><p>926.73</p></td>
+</tr>
+</tbody>
+</table>
+<p>After obtaining the four new datasets, we feed them to the clone detector under test.  We define a metric named Escape Rate (ER) to assess the performance of the  ML-based detectors:</p>
+<div class="math">
+<p><img src="_images/math/bfeaa3fc8a24ecefeed30be5cc8f2849044d6759.png" alt="ER =  \frac{\#Escaped\ CPs} {\#Total\ CPs} =  \frac {\#Total\ CPs - \#Reported\ CPs} {\#Total\ CPs}"/></p>
+</div></div>
+<div class="section" id="clone-detectors-descript">
+<h2>Clone Detectors Descript<a class="headerlink" href="#clone-detectors-descript" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>FCDetector <a class="footnote-reference brackets" href="#fcdetector" id="id2">2</a> trains a DNN network to detect clones of functions by capturing code syntax and semantic information through AST (abstract syntax tree) and CFG (control ﬂow graph).</p></li>
+<li><p>ASTNN <a class="footnote-reference brackets" href="#astnn" id="id3">3</a> maintains an AST-based neural source code representation that utilizes a bidirectional model to exploit the naturalness of source code statements for clone detection.</p></li>
+<li><p>TBCCD <a class="footnote-reference brackets" href="#tbccd" id="id4">4</a>  obtains structural information of code fragments from AST and lexical information from code tokens and adopts a tree-based traditional approach to detect semantic clones.</p></li>
+<li><p>SourcererCC <a class="footnote-reference brackets" href="#sourcerercc" id="id5">5</a> is a token-based clone detector.</p></li>
+<li><p>NICARD <a class="footnote-reference brackets" href="#nicard" id="id6">6</a> uses ﬂexible, beautiful printing and code normalization features to accurately detect intentional clones.</p></li>
+<li><p>CCAligner <a class="footnote-reference brackets" href="#ccaligner" id="id7">7</a> uses a combination of sliding windows and hashes to obtain good results in the detection of large-gap type clones.</p></li>
+<li><p>CCFinderX <a class="footnote-reference brackets" href="#ccfinderx" id="id8">8</a> is a token-based code clone detection system.</p></li>
+<li><p>Deckard <a class="footnote-reference brackets" href="#deckard" id="id9">9</a> is a tree-based clone detection tool.</p></li>
+<li><p>CCGraph <a class="footnote-reference brackets" href="#ccgraph" id="id10">10</a> is a PDG (Program Dependency Graph) based clone detector that captures syntactic and semantic information about a program.</p></li>
+</ul>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="mou"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Lili Mou, Ge Li, Lu Zhang, Tao Wang, and Zhi Jin. 2016. Convolutional Neural Networks over Tree Structures for Programming Language Processing. In Proceedings of the Thirtieth AAAI Conference on Artifcial Intelligence, Dale Schuurmans and Michael P. Wellman (Eds.). 1287–1293.</p>
+</dd>
+<dt class="label" id="fcdetector"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p>Chunrong Fang, Zixi Liu, Yangyang Shi, Jeﬀ Huang, and Qingkai Shi. 2020. Functional code clone detection with syntax and semantics fusion learning. In ISSTA ’20: 29th ACM SIGSOFT International Symposium on Software Testing and Analysis,516–527.</p>
+</dd>
+<dt class="label" id="astnn"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p>Jian Zhang, Xu Wang, Hongyu Zhang, Hailong Sun, Kaixuan Wang, and Xudong Liu. 2019. A novel neural source code representation based on abstract syntax tree. In Proceedings of the 41st International Conference on Software Engineering. 783–794.</p>
+</dd>
+<dt class="label" id="tbccd"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dd><p>Hao Yu, Wing Lam, Long Chen, Ge Li, Tao Xie, and Qianxiang Wang. 2019. Neural detection of semantic code clones via tree-based convolution. In Proceedings of the 27th International Conference on Program Comprehension, 70–80.</p>
+</dd>
+<dt class="label" id="sourcerercc"><span class="brackets"><a class="fn-backref" href="#id5">5</a></span></dt>
+<dd><p>Hitesh Sajnani, Vaibhav Saini, Jeﬀrey Svajlenko, Chanchal K. Roy, and Cristina V. Lopes. 2016. SourcererCC: scaling code clone detection to big-code. In Proceedings of the 38th International Conference on Software Engineering, 1157–1168.</p>
+</dd>
+<dt class="label" id="nicard"><span class="brackets"><a class="fn-backref" href="#id6">6</a></span></dt>
+<dd><p>Chanchal Kumar Roy and James R. Cordy. 2008. NICAD: Accurate Detection of Near-Miss Intentional Clones Using Flexible Pretty-Printing and Code Normalization. In The 16th IEEE International Conference on Program Comprehension, 172–181.</p>
+</dd>
+<dt class="label" id="ccaligner"><span class="brackets"><a class="fn-backref" href="#id7">7</a></span></dt>
+<dd><p>Pengcheng Wang, Jeﬀrey Svajlenko, Yanzhao Wu, Yun Xu, and Chanchal K. Roy. 2018. CCAligner: a token based large-gap clone detector. In Proceedings of the 40th International Conference on Software Engineering,  1066–1077.</p>
+</dd>
+<dt class="label" id="ccfinderx"><span class="brackets"><a class="fn-backref" href="#id8">8</a></span></dt>
+<dd><p>Toshihiro Kamiya, Shinji Kusumoto, and Katsuro Inoue. 2002. CCFinder: a multilinguistic token-based code clone detection system for large scale source code. IEEE Trans. Software Eng. 28, 7 (2002), 654–670.</p>
+</dd>
+<dt class="label" id="deckard"><span class="brackets"><a class="fn-backref" href="#id9">9</a></span></dt>
+<dd><p>Lingxiao Jiang, Ghassan Misherghi, Zhendong Su, and Stéphane Glondu. 2007. DECKARD: Scalable and Accurate Tree-Based Detection of Code Clones. In 29th International Conference on Software Engineering. IEEE Computer Society,   96–105.</p>
+</dd>
+<dt class="label" id="ccgraph"><span class="brackets"><a class="fn-backref" href="#id10">10</a></span></dt>
+<dd><p>Yue Zou, Bihuan Ban, Yinxing Xue, and Yun Xu. 2020. CCGraph: a PDG-based code clone detector with approximate graph matching. In 35th IEEE/ACM International Conference on Automated Software Engineering, ASE 2020,  931–942.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="motivating.html" class="btn btn-neutral float-right" title="Motivating Example" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="HOME" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, no.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

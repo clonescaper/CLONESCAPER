@@ -1,0 +1,622 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>RQ3 &mdash; clonescaper 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Mutation Example" href="mutationexample.html" />
+    <link rel="prev" title="RQ2" href="rq2.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> clonescaper
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">HOME</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motivating.html">Motivating Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rq1.html">RQ1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rq2.html">RQ2</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">RQ3</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sourcerercc">SourcererCC</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#all-mutation">All Mutation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#nicard">NICARD</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">All Mutation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ccaligner">CCAligner</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">All Mutation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ccfinderx">CCFinderX</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">All Mutation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deckard">Deckard</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">All Mutation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ccgraph">CCGraph</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">All Mutation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#am-result">AM Result</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="mutationexample.html">Mutation Example</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">clonescaper</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>RQ3</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/rq3.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rq3">
+<h1>RQ3<a class="headerlink" href="#rq3" title="Permalink to this headline">¶</a></h1>
+<p>Can Clonescaper still escape from the ML-based detectors enhanced by adversarial training?</p>
+<p>In this section, we answer RQ3, which explores whether or not Clonescaper can also defeat traditional clone detection techniques. While ML-based detectors have achieved desirable performance, traditional detectors are still widely used in practice. To explore to what extent the cloned code from Clonescaper may escape from traditional detectors.</p>
+<p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/tbccd">Github</a></p>
+<div class="section" id="sourcerercc">
+<h2>SourcererCC<a class="headerlink" href="#sourcerercc" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="all-mutation">
+<h3>All Mutation<a class="headerlink" href="#all-mutation" title="Permalink to this headline">¶</a></h3>
+<p>The data was split into 5 copies during the experiment, and the following are the corresponding test results and the correspondence between the indexes.</p>
+<table class="docutils align-center" id="id6">
+<caption><span class="caption-text">result and index</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 56%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Result</p></td>
+<td><p>Index</p></td>
+</tr>
+<tr class="row-even"><td><p>results1.txt</p></td>
+<td><p>files2_stats.txt</p></td>
+</tr>
+<tr class="row-odd"><td><p>results2.txt</p></td>
+<td><p>files2_stats.txt</p></td>
+</tr>
+<tr class="row-even"><td><p>results3.txt</p></td>
+<td><p>files3_stats.txt</p></td>
+</tr>
+<tr class="row-odd"><td><p>results4.txt</p></td>
+<td><p>files4_stats.txt</p></td>
+</tr>
+<tr class="row-even"><td><p>results5.txt</p></td>
+<td><p>files5_stats.txt</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center" id="id7">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 56%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>1,14</p></td>
+<td><p>1,10</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center" id="id8">
+<caption><span class="caption-text">index example</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 91%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>1,10</p></td>
+<td><p>“/home/oopsla/Desktop/projects/ProgramDump1.zip/ProgramDump1/10002_2.c”,”NULL/Dump1/10002_2.c”,”960c4d2d5269b6122ab865bd97203dad”,1135,53,51,51</p></td>
+</tr>
+<tr class="row-even"><td><p>1,14</p></td>
+<td><p>“/home/oopsla/Desktop/projects/ProgramDump1.zip/ProgramDump1/10004_2.c”,”NULL/Dump1/10004_2.c”,”10b9453100d02ce25302fbc09881c841”,1444,67,64,64</p></td>
+</tr>
+</tbody>
+</table>
+<p>Here the suffix “_2” means the code after mutation, for example, 10002_2.c means the code after 10002.c mutation. Our goal is to see if sourcererCC can detect the clone pair represented by (10002.c , 10002_2.c).
+Here the two mutated codes 10002_2.c and 10004_2.c are identified as clone pairs, which is not meaningful for our test.</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+</div>
+<div class="section" id="nicard">
+<h2>NICARD<a class="headerlink" href="#nicard" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>All Mutation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>We divided the data into 5 parts to test.</p>
+<table class="docutils align-center" id="id9">
+<caption><span class="caption-text">nicad result</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Programs1_functions-blind-clones-0.30.xml
+Programs1_functions-blind-clones-0.30-classes.xml</p></td>
+</tr>
+<tr class="row-even"><td><p>Programs2_functions-blind-clones-0.30.xml
+Programs2_functions-blind-clones-0.30-classes.xml</p></td>
+</tr>
+<tr class="row-odd"><td><p>Programs3_functions-blind-clones-0.30.xml
+Programs3_functions-blind-clones-0.30-classes.xml</p></td>
+</tr>
+<tr class="row-even"><td><p>Programs4_functions-blind-clones-0.30.xml
+Programs4_functions-blind-clones-0.30-classes.xml</p></td>
+</tr>
+<tr class="row-odd"><td><p>Programs5_functions-blind-clones-0.30.xml
+Programs5_functions-blind-clones-0.30-classes.xml</p></td>
+</tr>
+</tbody>
+</table>
+<p>We need to find the experimental results where the ids in Dump and Muta are equal.
+such as(1Dump/16466.c,1Muta/16466.c)</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+</div>
+<div class="section" id="ccaligner">
+<h2>CCAligner<a class="headerlink" href="#ccaligner" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3>All Mutation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>The experimental results are as follows.</p>
+<table class="docutils align-center" id="id10">
+<caption><span class="caption-text">ccaligner results</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>1clones_6_0.6</p></td>
+</tr>
+<tr class="row-even"><td><p>2clones_6_0.6</p></td>
+</tr>
+<tr class="row-odd"><td><p>2clones_6_0.6</p></td>
+</tr>
+<tr class="row-even"><td><p>4clones_6_0.6</p></td>
+</tr>
+<tr class="row-odd"><td><p>5clones_6_0.6</p></td>
+</tr>
+<tr class="row-even"><td><p>6clones_6_0.6</p></td>
+</tr>
+<tr class="row-odd"><td><p>7clones_6_0.6</p></td>
+</tr>
+<tr class="row-even"><td><p>8clones_6_0.6</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center" id="id11">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>./paper_data/CCAligner-c/Example/13296_2.c,1,41 | ./paper_data/CCAligner-c/Example/9541_2.c,118,127</p></td>
+</tr>
+</tbody>
+</table>
+<p>Here the suffix “_2” means the code after mutation, for example, 13296_2.c means the code after 13296.c mutation. Our goal is to see if sourcererCC can detect the clone pair represented by (13296.c , 13296_2.c).</p>
+<p>Here the two mutated codes 13296_2.c and 9541_2.c are identified as clone pairs, which is not meaningful for our test.</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+</div>
+<div class="section" id="ccfinderx">
+<h2>CCFinderX<a class="headerlink" href="#ccfinderx" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3>All Mutation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>We split the data into 12 copies for testing.</p>
+<table class="docutils align-center" id="id12">
+<caption><span class="caption-text">ccfinderX result</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>ccf1.txt</p></td>
+<td><p>ccf2.txt</p></td>
+<td><p>ccf3.txt</p></td>
+<td><p>ccf4.txt</p></td>
+<td><p>ccf5.txt</p></td>
+<td><p>ccf6.txt</p></td>
+<td><p>ccf7.txt</p></td>
+<td><p>ccf8.txt</p></td>
+<td><p>ccf9.txt</p></td>
+<td><p>ccf10.txt</p></td>
+<td><p>ccf11.txt</p></td>
+<td><p>ccf12.txt</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center" id="id13">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 66%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Number</p></td>
+<td><p>Id1</p></td>
+<td><p>Id2</p></td>
+</tr>
+<tr class="row-even"><td><p>4180</p></td>
+<td><p>2.184-238</p></td>
+<td><p>20.238-292</p></td>
+</tr>
+<tr class="row-odd"><td><p>6366</p></td>
+<td><p>2.123-176</p></td>
+<td><p>22.184-237</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>C:ccfinderxProgramsprog110001_2.c</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>20</p></td>
+<td><p>C:ccfinderxProgramsprog110041_2.c</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>22</p></td>
+<td><p>C:ccfinderxProgramsprog110046_2.c</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Here the suffix “_2” means the code after mutation, for example, 10001_2.c means the code after 10001.c mutation. Our goal is to see if sourcererCC can detect the clone pair represented by (10001.c , 10001_2.c).</p>
+<p>Here the two mutated codes (10001_2.c,10041_2.c) and (10001_2.c,10046_2.c) are identified as clone pairs, which is not meaningful for our test.</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+</div>
+<div class="section" id="deckard">
+<h2>Deckard<a class="headerlink" href="#deckard" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h3>All Mutation<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-center" id="id14">
+<caption><span class="caption-text">deckard result</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>cluster_vdb_100_0_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>cluster_vdb_100_0_allg_1.0_50</p></td>
+</tr>
+<tr class="row-odd"><td><p>cluster_vdb_100_2_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>cluster_vdb_100_2_allg_1.0_50</p></td>
+</tr>
+<tr class="row-odd"><td><p>cluster_vdb_50_0_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>cluster_vdb_50_0_allg_1.0_50</p></td>
+</tr>
+<tr class="row-odd"><td><p>cluster_vdb_50_2_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>cluster_vdb_50_2_allg_1.0_50</p></td>
+</tr>
+<tr class="row-odd"><td><p>post_cluster_vdb_100_0_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>post_cluster_vdb_100_0_allg_1.0_50</p></td>
+</tr>
+<tr class="row-odd"><td><p>post_cluster_vdb_100_2_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>post_cluster_vdb_100_2_allg_1.0_50</p></td>
+</tr>
+<tr class="row-odd"><td><p>post_cluster_vdb_50_0_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>post_cluster_vdb_50_0_allg_1.0_50</p></td>
+</tr>
+<tr class="row-odd"><td><p>post_cluster_vdb_50_2_allg_0.95_50</p></td>
+</tr>
+<tr class="row-even"><td><p>post_cluster_vdb_50_2_allg_1.0_50</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center" id="id15">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 82%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>000001052</p></td>
+<td><p>dist:0.0</p></td>
+<td><p>FILE src/main/2Dump/40486.c LINE:19:12 NODE_KIND:65 nVARs:16 NUM_NODE:520 TBID:124 TEID:297</p></td>
+</tr>
+<tr class="row-even"><td><p>000001053</p></td>
+<td><p>dist:1.0</p></td>
+<td><p>FILE src/main/2Dump/40486.c LINE:20:10 NODE_KIND:65 nVARs:16 NUM_NODE:519 TBID:125 TEID:296</p></td>
+</tr>
+<tr class="row-odd"><td><p>000004493</p></td>
+<td><p>dist:5.6</p></td>
+<td><p>FILE src/main/2Muta/40486.c LINE:60:10 NODE_KIND:65 nVARs:15 NUM_NODE:519 TBID:336 TEID:505</p></td>
+</tr>
+</tbody>
+</table>
+<p>We need to find the experimental results where the ids in Dump and Muta are equal.
+such as(2Dump/40486.c,2Muta/40486)</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+</div>
+<div class="section" id="ccgraph">
+<h2>CCGraph<a class="headerlink" href="#ccgraph" title="Permalink to this headline">¶</a></h2>
+<p>Note that CCGraph is not publicly available right now, so we requested its authors
+to help us fnish this experiment.</p>
+<div class="section" id="id5">
+<h3>All Mutation<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>We split the data into 5 copies for testing.</p>
+<p>When testing we only test the clone pair consisting of id.c and id_2.c, so if it is a clone, a report will be generated, otherwise no report.</p>
+<div class="highlight-c++ notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">[</span>
+ <span class="p">{</span>
+     <span class="s">&quot;file1&quot;</span><span class="o">:</span><span class="s">&quot;10.c&quot;</span><span class="p">,</span>
+     <span class="s">&quot;file2&quot;</span><span class="o">:</span><span class="s">&quot;10_2.c&quot;</span><span class="p">,</span>
+     <span class="s">&quot;func1&quot;</span><span class="o">:</span><span class="s">&quot;main&quot;</span><span class="p">,</span>
+     <span class="s">&quot;func2&quot;</span><span class="o">:</span><span class="s">&quot;main&quot;</span><span class="p">,</span>
+     <span class="s">&quot;sim&quot;</span><span class="o">:</span><span class="mf">0.9063545150501672</span><span class="p">,</span>
+     <span class="s">&quot;start_line_1&quot;</span><span class="o">:</span><span class="s">&quot;1&quot;</span><span class="p">,</span>
+     <span class="s">&quot;start_line_2&quot;</span><span class="o">:</span><span class="s">&quot;1&quot;</span>
+ <span class="p">}</span>
+ <span class="p">]</span>
+</pre></div>
+</td></tr></table></div>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+</div>
+<div class="section" id="am-result">
+<h2>AM Result<a class="headerlink" href="#am-result" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-center" id="id16">
+<caption><span class="caption-text">The ER values of traditional clone detectors</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 18%" />
+<col style="width: 11%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td></td>
+<td><p>SourcererCC</p></td>
+<td><p>NICARS</p></td>
+<td><p>CCAligner</p></td>
+<td><p>CCFinderX</p></td>
+<td><p>Deckard</p></td>
+<td><p>CCGRaph</p></td>
+</tr>
+<tr class="row-even"><td><p>Attribute</p></td>
+<td><p>Token</p></td>
+<td><p>Text</p></td>
+<td><p>Token</p></td>
+<td><p>Token</p></td>
+<td><p>Tree</p></td>
+<td><p>PDG</p></td>
+</tr>
+<tr class="row-odd"><td><p>ER</p></td>
+<td><p>99.99%</p></td>
+<td><p>98.91%</p></td>
+<td><p>98.56%</p></td>
+<td><p>97.17%</p></td>
+<td><p>90.13%</p></td>
+<td><p>65.48</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="mutationexample.html" class="btn btn-neutral float-right" title="Mutation Example" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="rq2.html" class="btn btn-neutral float-left" title="RQ2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, no.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

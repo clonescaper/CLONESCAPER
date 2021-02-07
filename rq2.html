@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>RQ2 &mdash; clonescaper 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="RQ3" href="rq3.html" />
+    <link rel="prev" title="RQ1" href="rq1.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> clonescaper
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">HOME</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motivating.html">Motivating Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rq1.html">RQ1</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">RQ2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#astnn">Astnn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fcdetector">FCDetector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tbccd">TBCCD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#final-results">Final Results</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rq3.html">RQ3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mutationexample.html">Mutation Example</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">clonescaper</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>RQ2</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/rq2.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rq2">
+<h1>RQ2<a class="headerlink" href="#rq2" title="Permalink to this headline">¶</a></h1>
+<p>Can Clonescaper still escape from the ML-based detectors enhanced by adversarial training?</p>
+<p>In this section, we try to answer RQ2 with the experimental results. That is, whether or not augmenting the training of ML-based detectors with adversarial samples can defend Clonescaper. A common idea of reinforcing such detectors is to fuse the spear into the shield, which means we can convert the code clone pairs from Clonescaper to be adversarial samples to re-train the ML models.</p>
+<p>Table 1 summarizes the performance of the ML-based detectors before (Original Performance) and after (New Performance) the adversarial training.P , R and F1 denote precision, recall, and overall performance, respectively.</p>
+<p>Overall, the adversarial training indeed promotes the performance of these ML-based detectors.</p>
+<table class="docutils align-center" id="id3">
+<caption><span class="caption-text">Table 1 The performance of ML-based detectors on OJClone data</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td></td>
+<td colspan="3"><p>Original Performance</p></td>
+<td colspan="3"><p>New Perfromance</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>P</p></td>
+<td><p>R</p></td>
+<td><p>F1</p></td>
+<td><p>P</p></td>
+<td><p>R</p></td>
+<td><p>F1</p></td>
+</tr>
+<tr class="row-odd"><td><p>ASTNN</p></td>
+<td><p>0.98%</p></td>
+<td><p>0.92%</p></td>
+<td><p>0.95%</p></td>
+<td><p>0.99%</p></td>
+<td><p>0.97%</p></td>
+<td><p>0.98%</p></td>
+</tr>
+<tr class="row-even"><td><p>TBCCD</p></td>
+<td><p>0.99%</p></td>
+<td><p>0.99%</p></td>
+<td><p>0.99%</p></td>
+<td><p>1.00%</p></td>
+<td><p>0.98%</p></td>
+<td><p>0.99%</p></td>
+</tr>
+<tr class="row-odd"><td><p>FCDetector</p></td>
+<td><p>0.97%</p></td>
+<td><p>0.95%</p></td>
+<td><p>0.96%</p></td>
+<td><p>0.97%</p></td>
+<td><p>0.97%</p></td>
+<td><p>0.97%</p></td>
+</tr>
+</tbody>
+</table>
+<p>The data used during the test is the same as in RQ1, so the results are in a similar format.</p>
+<div class="section" id="astnn">
+<h2>Astnn<a class="headerlink" href="#astnn" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/astnn">Github</a></p>
+<p>All Mutation</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+<div class="section" id="fcdetector">
+<h2>FCDetector<a class="headerlink" href="#fcdetector" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/Fcdector">Github</a></p>
+<p>All Mutation</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+<div class="section" id="tbccd">
+<h2>TBCCD<a class="headerlink" href="#tbccd" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/tbccd">Github</a></p>
+<p>All Mutation</p>
+<p>Random Mutation</p>
+<p>Genetic Algorithm</p>
+<p>MCMC</p>
+</div>
+<div class="section" id="final-results">
+<h2>Final Results<a class="headerlink" href="#final-results" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-center" id="id4">
+<caption><span class="caption-text">The new ER values after adversarial training</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Detector</p></td>
+<td><p>AM</p></td>
+<td><p>RM</p></td>
+<td><p>GM</p></td>
+<td><p>MCMC</p></td>
+</tr>
+<tr class="row-even"><td><p>ASTNN</p></td>
+<td><p>82.73%</p></td>
+<td><p>78.77%</p></td>
+<td><p>80.68%</p></td>
+<td><p>77.09%</p></td>
+</tr>
+<tr class="row-odd"><td><p>TBCCD</p></td>
+<td><p>27.65%</p></td>
+<td><p>14.00%</p></td>
+<td><p>25.69%</p></td>
+<td><p>14.20%</p></td>
+</tr>
+<tr class="row-even"><td><p>FCDetector</p></td>
+<td><p>6.58%</p></td>
+<td><p>13.91%</p></td>
+<td><p>18.61%</p></td>
+<td><p>16.40%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="rq3.html" class="btn btn-neutral float-right" title="RQ3" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="rq1.html" class="btn btn-neutral float-left" title="RQ1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, no.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

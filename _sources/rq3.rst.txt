@@ -1,0 +1,335 @@
+RQ3
+============
+
+Can Clonescaper still escape from the ML-based detectors enhanced by adversarial training?
+
+In this section, we answer RQ3, which explores whether or not Clonescaper can also defeat traditional clone detection techniques. While ML-based detectors have achieved desirable performance, traditional detectors are still widely used in practice. To explore to what extent the cloned code from Clonescaper may escape from traditional detectors.
+
+`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/tbccd>`_
+
+
+SourcererCC
+------------ 
+
+
+
+
+All Mutation
+^^^^^^^^^^^^^^^
+
+The data was split into 5 copies during the experiment, and the following are the corresponding test results and the correspondence between the indexes.
+
+.. table:: result and index
+    :align: center  
+    
+    +--------------+------------------+
+    |    Result    |       Index      |
+    +--------------+------------------+
+    | results1.txt | files2_stats.txt |
+    +--------------+------------------+
+    | results2.txt | files2_stats.txt |
+    +--------------+------------------+
+    | results3.txt | files3_stats.txt |
+    +--------------+------------------+
+    | results4.txt | files4_stats.txt |
+    +--------------+------------------+
+    | results5.txt | files5_stats.txt |
+    +--------------+------------------+
+
+
+.. table:: result example
+    :align: center    
+
+    +--------------+------------------+
+    |     1,14     |       1,10       |
+    +--------------+------------------+
+
+
+.. table:: index example
+    :align: center    
+
+    +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+    |     1,10     | "/home/oopsla/Desktop/projects/ProgramDump1.zip/ProgramDump1/10002_2.c","NULL/Dump1/10002_2.c","960c4d2d5269b6122ab865bd97203dad",1135,53,51,51 |
+    +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+    |     1,14     | "/home/oopsla/Desktop/projects/ProgramDump1.zip/ProgramDump1/10004_2.c","NULL/Dump1/10004_2.c","10b9453100d02ce25302fbc09881c841",1444,67,64,64 |
+    +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Here the suffix "_2" means the code after mutation, for example, 10002_2.c means the code after 10002.c mutation. Our goal is to see if sourcererCC can detect the clone pair represented by (10002.c , 10002_2.c).
+Here the two mutated codes 10002_2.c and 10004_2.c are identified as clone pairs, which is not meaningful for our test.
+
+
+
+Random Mutation 
+
+Genetic Algorithm
+
+MCMC
+
+
+
+NICARD
+---------
+
+All Mutation
+^^^^^^^^^^^^^^
+
+
+
+We divided the data into 5 parts to test.
+
+.. table:: nicad result
+    :align: center
+
+    +---------------------------------------------------+
+    | Programs1_functions-blind-clones-0.30.xml         |
+    | Programs1_functions-blind-clones-0.30-classes.xml |
+    +---------------------------------------------------+
+    | Programs2_functions-blind-clones-0.30.xml         |
+    | Programs2_functions-blind-clones-0.30-classes.xml |
+    +---------------------------------------------------+
+    | Programs3_functions-blind-clones-0.30.xml         |
+    | Programs3_functions-blind-clones-0.30-classes.xml |
+    +---------------------------------------------------+
+    | Programs4_functions-blind-clones-0.30.xml         |
+    | Programs4_functions-blind-clones-0.30-classes.xml |
+    +---------------------------------------------------+
+    | Programs5_functions-blind-clones-0.30.xml         |
+    | Programs5_functions-blind-clones-0.30-classes.xml |
+    +---------------------------------------------------+
+
+.. table:: result example
+    :align: center
+    +----------------------------------------------------------------------------------------------------+
+    | <clone nlines="10" similarity="71">                                                                |
+    | <source file="./systems/Programs1/1Dump/16466.c" startline="22" endline="30" pcid="818"></source>  |
+    | <source file="./systems/Programs1/1Muta/16466.c" startline="79" endline="87" pcid="3603"></source> |
+    | </clone>                                                                                           |
+    +----------------------------------------------------------------------------------------------------+
+
+We need to find the experimental results where the ids in Dump and Muta are equal.
+such as(1Dump/16466.c,1Muta/16466.c)
+
+Random Mutation 
+
+Genetic Algorithm
+
+MCMC
+ 
+
+
+
+CCAligner
+------------ 
+
+
+
+All Mutation
+^^^^^^^^^^^^^^^
+
+The experimental results are as follows.
+
+.. table:: ccaligner results
+    :align: center
+
+    +---------------+
+    | 1clones_6_0.6 |
+    +---------------+
+    | 2clones_6_0.6 |
+    +---------------+
+    | 2clones_6_0.6 |
+    +---------------+
+    | 4clones_6_0.6 |
+    +---------------+
+    | 5clones_6_0.6 |
+    +---------------+
+    | 6clones_6_0.6 |
+    +---------------+
+    | 7clones_6_0.6 |
+    +---------------+
+    | 8clones_6_0.6 |
+    +---------------+
+
+.. table:: result example
+    :align: center
+
+    +-----------------------------------------------------------------------------------------------------+
+    | ./paper_data/CCAligner-c/Example/13296_2.c,1,41 | ./paper_data/CCAligner-c/Example/9541_2.c,118,127 |
+    +-----------------------------------------------------------------------------------------------------+
+
+Here the suffix "_2" means the code after mutation, for example, 13296_2.c means the code after 13296.c mutation. Our goal is to see if sourcererCC can detect the clone pair represented by (13296.c , 13296_2.c).
+
+Here the two mutated codes 13296_2.c and 9541_2.c are identified as clone pairs, which is not meaningful for our test.
+
+
+Random Mutation 
+ 
+Genetic Algorithm
+
+MCMC
+
+
+CCFinderX
+----------
+
+
+All Mutation
+^^^^^^^^^^^^
+
+We split the data into 12 copies for testing.
+
+.. table:: ccfinderX result
+    :align: center
+
+    +----------+----------+----------+----------+----------+----------+----------+----------+----------+-----------+-----------+-----------+
+    | ccf1.txt | ccf2.txt | ccf3.txt | ccf4.txt | ccf5.txt | ccf6.txt | ccf7.txt | ccf8.txt | ccf9.txt | ccf10.txt | ccf11.txt | ccf12.txt |
+    +----------+----------+----------+----------+----------+----------+----------+----------+----------+-----------+-----------+-----------+
+
+.. table:: result example
+    :align: center
+
+    +--------+---------------------------------------+------------+
+    | Number |                  Id1                  |     Id2    |
+    +--------+---------------------------------------+------------+
+    | 4180   | 2.184-238                             | 20.238-292 |
+    +--------+---------------------------------------+------------+
+    | 6366   | 2.123-176                             | 22.184-237 |
+    +--------+---------------------------------------+------------+
+    |        |                                       |            |
+    +--------+---------------------------------------+------------+
+    | 2      | C:\ccfinderx\Programs\prog1\10001_2.c |            |
+    +--------+---------------------------------------+------------+
+    | 20     | C:\ccfinderx\Programs\prog1\10041_2.c |            |
+    +--------+---------------------------------------+------------+
+    | 22     | C:\ccfinderx\Programs\prog1\10046_2.c |            |
+    +--------+---------------------------------------+------------+
+
+Here the suffix "_2" means the code after mutation, for example, 10001_2.c means the code after 10001.c mutation. Our goal is to see if sourcererCC can detect the clone pair represented by (10001.c , 10001_2.c).
+
+Here the two mutated codes (10001_2.c,10041_2.c) and (10001_2.c,10046_2.c) are identified as clone pairs, which is not meaningful for our test.
+
+
+
+Random Mutation 
+
+Genetic Algorithm
+
+MCMC
+
+Deckard
+--------- 
+
+
+All Mutation
+^^^^^^^^^^^^^^^
+
+.. table:: deckard result
+    :align: center
+
+    +-------------------------------------+
+    | cluster_vdb_100_0_allg_0.95_50      |
+    +-------------------------------------+
+    | cluster_vdb_100_0_allg_1.0_50       |
+    +-------------------------------------+
+    | cluster_vdb_100_2_allg_0.95_50      |
+    +-------------------------------------+
+    | cluster_vdb_100_2_allg_1.0_50       |
+    +-------------------------------------+
+    | cluster_vdb_50_0_allg_0.95_50       |
+    +-------------------------------------+
+    | cluster_vdb_50_0_allg_1.0_50        |
+    +-------------------------------------+
+    | cluster_vdb_50_2_allg_0.95_50       |
+    +-------------------------------------+
+    | cluster_vdb_50_2_allg_1.0_50        |
+    +-------------------------------------+
+    | post_cluster_vdb_100_0_allg_0.95_50 |
+    +-------------------------------------+
+    | post_cluster_vdb_100_0_allg_1.0_50  |
+    +-------------------------------------+
+    | post_cluster_vdb_100_2_allg_0.95_50 |
+    +-------------------------------------+
+    | post_cluster_vdb_100_2_allg_1.0_50  |
+    +-------------------------------------+
+    | post_cluster_vdb_50_0_allg_0.95_50  |
+    +-------------------------------------+
+    | post_cluster_vdb_50_0_allg_1.0_50   |
+    +-------------------------------------+
+    | post_cluster_vdb_50_2_allg_0.95_50  |
+    +-------------------------------------+
+    | post_cluster_vdb_50_2_allg_1.0_50   |
+    +-------------------------------------+
+
+.. table:: result example
+    :align: center
+
+    +-----------+----------+---------------------------------------------------------------------------------------------+
+    | 000001052 | dist:0.0 | FILE src/main/2Dump/40486.c LINE:19:12 NODE_KIND:65 nVARs:16 NUM_NODE:520 TBID:124 TEID:297 |
+    +-----------+----------+---------------------------------------------------------------------------------------------+
+    | 000001053 | dist:1.0 | FILE src/main/2Dump/40486.c LINE:20:10 NODE_KIND:65 nVARs:16 NUM_NODE:519 TBID:125 TEID:296 |
+    +-----------+----------+---------------------------------------------------------------------------------------------+
+    | 000004493 | dist:5.6 | FILE src/main/2Muta/40486.c LINE:60:10 NODE_KIND:65 nVARs:15 NUM_NODE:519 TBID:336 TEID:505 |
+    +-----------+----------+---------------------------------------------------------------------------------------------+
+
+We need to find the experimental results where the ids in Dump and Muta are equal.
+such as(2Dump/40486.c,2Muta/40486)
+
+Random Mutation 
+
+Genetic Algorithm
+
+MCMC
+
+
+
+CCGraph
+--------- 
+
+Note that CCGraph is not publicly available right now, so we requested its authors
+to help us fnish this experiment.
+
+All Mutation
+^^^^^^^^^^^^^^^
+
+We split the data into 5 copies for testing.
+
+When testing we only test the clone pair consisting of id.c and id_2.c, so if it is a clone, a report will be generated, otherwise no report.
+
+.. code-block:: c++
+   :linenos:
+   
+    [
+    {
+        "file1":"10.c",
+        "file2":"10_2.c",
+        "func1":"main",
+        "func2":"main",
+        "sim":0.9063545150501672,
+        "start_line_1":"1",
+        "start_line_2":"1"
+    }
+    ]
+
+
+Random Mutation 
+
+Genetic Algorithm
+
+MCMC
+
+
+
+AM Result
+-----------
+
+.. table:: The ER values of traditional clone detectors
+    :align: center
+
+    +-----------+-------------+--------+-----------+-----------+---------+---------+
+    |           | SourcererCC | NICARS | CCAligner | CCFinderX | Deckard | CCGRaph |
+    +-----------+-------------+--------+-----------+-----------+---------+---------+
+    | Attribute | Token       | Text   | Token     | Token     | Tree    | PDG     |
+    +-----------+-------------+--------+-----------+-----------+---------+---------+
+    | ER        | 99.99%      | 98.91% | 98.56%    | 97.17%    | 90.13%  | 65.48   |
+    +-----------+-------------+--------+-----------+-----------+---------+---------+
+
+

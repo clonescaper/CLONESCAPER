@@ -1,0 +1,622 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>RQ1 &mdash; clonescaper 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="RQ2" href="rq2.html" />
+    <link rel="prev" title="Motivating Example" href="motivating.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> clonescaper
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">HOME</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motivating.html">Motivating Example</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">RQ1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#astnn">Astnn</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#all-mutation">All Mutation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#random-mutation">Random Mutation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#genetic-algorithm">Genetic Algorithm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mcmc">MCMC</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcdetector">FCDetector</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">All Mutation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Random Mutation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Genetic Algorithm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">MCMC</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tbccd">TBCCD</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">All Mutation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Random Mutation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Genetic Algorithm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">MCMC</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#final-result">Final Result</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rq2.html">RQ2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rq3.html">RQ3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mutationexample.html">Mutation Example</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">clonescaper</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>RQ1</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/rq1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rq1">
+<h1>RQ1<a class="headerlink" href="#rq1" title="Permalink to this headline">¶</a></h1>
+<p>Can Clonescaper bypass the latest ML-based clone detectors with the proposed code transformations?</p>
+<p>we answer RQ1, the eﬀectiveness of Clonescaper on bypassing the ML-based clone detectors. This evaluation is conducted on three state-of-the-art detectors, ASTNN, FCDetector, and TBCCD, which are the representatives of the latest advances in applying ML techniques to clone detection.</p>
+<div class="section" id="astnn">
+<h2>Astnn<a class="headerlink" href="#astnn" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ1-mlDetectorsResult/astnn">Github</a></p>
+<p>The clone pairs with test code ids greater than 52000 in astnn are clone pairs composed of equivalent transformations generated by our tool. The ids less than 52000 are the data in the original paper, so we only need to count the ids greater than 52000.</p>
+<div class="section" id="all-mutation">
+<h3>All Mutation<a class="headerlink" href="#all-mutation" title="Permalink to this headline">¶</a></h3>
+<p>total:10300 Pairs</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 14%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 3908</p></td>
+<td><p>test2_id: 27099</p></td>
+<td><p>true: 0</p></td>
+<td><p>predicted: 0</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1790408760</p></td>
+<td><p>test2_id: 1790408761</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>error  : type:1</p></td>
+<td><p>test1_id: 1600307910</p></td>
+<td><p>test2_id: 1600307911</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 0</p></td>
+</tr>
+</tbody>
+</table>
+<p>92.30% of the clones were unrecognizable to astnn.</p>
+</div>
+<div class="section" id="random-mutation">
+<h3>Random Mutation<a class="headerlink" href="#random-mutation" title="Permalink to this headline">¶</a></h3>
+<p>total 10394*5
+If the ids are equal after dividing by 100, it means it is obtained by mutating the equal code snippet.
+1854418100,1854418110,1854418120,1854418130,1854418140 are the equal code snippet.</p>
+<p>All 5 could not escape astnn detection and failed to escape.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 26%" />
+<col style="width: 26%" />
+<col style="width: 11%" />
+<col style="width: 17%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1854418100</p></td>
+<td><p>test2_id: 1854418101</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1854418110</p></td>
+<td><p>test2_id: 1854418111</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1854418120</p></td>
+<td><p>test2_id: 1854418121</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1854418140</p></td>
+<td><p>test2_id: 1854418141</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1854418130</p></td>
+<td><p>test2_id: 1854418131</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+</tbody>
+</table>
+<p>As long as one of the five cannot be detected as a successful escape.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 14%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1281443600</p></td>
+<td><p>test2_id: 1281443601</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1281443610</p></td>
+<td><p>test2_id: 1281443611</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>error : type:1</p></td>
+<td><p>test1_id: 1281443620</p></td>
+<td><p>test2_id: 1281443621</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 0</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1281443630</p></td>
+<td><p>test2_id: 1281443631</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>correct: type:1</p></td>
+<td><p>test1_id: 1281443640</p></td>
+<td><p>test2_id: 1281443641</p></td>
+<td><p>true: 1</p></td>
+<td><p>predicted: 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="genetic-algorithm">
+<h3>Genetic Algorithm<a class="headerlink" href="#genetic-algorithm" title="Permalink to this headline">¶</a></h3>
+<p>It is similar to the Random Mutation.</p>
+</div>
+<div class="section" id="mcmc">
+<h3>MCMC<a class="headerlink" href="#mcmc" title="Permalink to this headline">¶</a></h3>
+<p>It is similar to the Random Mutation.</p>
+</div>
+</div>
+<div class="section" id="fcdetector">
+<h2>FCDetector<a class="headerlink" href="#fcdetector" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ1-mlDetectorsResult/FCDector">Github</a></p>
+<p>Since some of the data cannot be processed in the data pre-processing phase of this tool, the total number of clone pairs generated will be less than the clone pairs we provide.</p>
+<div class="section" id="id2">
+<h3>All Mutation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>result example</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 24%" />
+<col style="width: 28%" />
+<col style="width: 28%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>pred_cur:1</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>ite/535/180610</p></td>
+<td><p>ite/535/180611</p></td>
+</tr>
+<tr class="row-even"><td><p>pred_cur:0</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>ite/571/367460</p></td>
+<td><p>ite/571/367461</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id3">
+<h3>Random Mutation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>If the ids are equal after dividing by 100, it means it is obtained by mutating the equal code snippet.
+1368100,1368110,1368120,1368130,1368140 are the equal code snippet.</p>
+<p>All 5 could not escape FCDetector detection and failed to escape.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 25%" />
+<col style="width: 27%" />
+<col style="width: 27%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>pred_cur:1</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/627/1368100</p></td>
+<td><p>m/627/1368101</p></td>
+</tr>
+<tr class="row-even"><td><p>pred_cur:1</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/627/1368110</p></td>
+<td><p>m/627/1368111</p></td>
+</tr>
+<tr class="row-odd"><td><p>pred_cur:1</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/627/1368120</p></td>
+<td><p>m/627/1368121</p></td>
+</tr>
+<tr class="row-even"><td><p>pred_cur:1</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/627/1368130</p></td>
+<td><p>m/627/1368131</p></td>
+</tr>
+<tr class="row-odd"><td><p>pred_cur:1</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/627/1368140</p></td>
+<td><p>m/627/1368141</p></td>
+</tr>
+</tbody>
+</table>
+<p>As long as one of the five cannot be detected as a successful escape.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 25%" />
+<col style="width: 27%" />
+<col style="width: 27%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>pred_cur:0</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/680/4145600</p></td>
+<td><p>m/680/4145601</p></td>
+</tr>
+<tr class="row-even"><td><p>pred_cur:0</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/680/4145610</p></td>
+<td><p>m/680/4145611</p></td>
+</tr>
+<tr class="row-odd"><td><p>pred_cur:0</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/680/4145620</p></td>
+<td><p>m/680/4145621</p></td>
+</tr>
+<tr class="row-even"><td><p>pred_cur:1</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/680/4145630</p></td>
+<td><p>m/680/4145631</p></td>
+</tr>
+<tr class="row-odd"><td><p>pred_cur:0</p></td>
+<td><p>traget_cur:1</p></td>
+<td><p>m/680/4145640</p></td>
+<td><p>m/680/4145641</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id4">
+<h3>Genetic Algorithm<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>It is similar to the Random Mutation.</p>
+</div>
+<div class="section" id="id5">
+<h3>MCMC<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>It is similar to the Random Mutation.</p>
+</div>
+</div>
+<div class="section" id="tbccd">
+<h2>TBCCD<a class="headerlink" href="#tbccd" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ1-mlDetectorsResult/TBCCD">Github</a></p>
+<div class="section" id="id7">
+<h3>All Mutation<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>The trained model is used to test the clone pairs we provide. Since it is a deterministic transformation, there is only one clone pair per code fragment, so the final escape rate = 1-recall.</p>
+</div>
+<div class="section" id="id8">
+<h3>Random Mutation<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>If the ids are equal after dividing by 100, it means it is obtained by mutating the equal code snippet.
+160310,160311,160312,160313,160314 are the equal code snippet.</p>
+<p>All 5 could not escape TBCCD detection and failed to escape.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 79%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160310.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160310.c’, ‘1’]</p></td>
+<td><p>m/680/4145600</p></td>
+<td><p>m/680/4145601</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160311.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160311.c’, ‘1’]</p></td>
+<td><p>m/680/4145610</p></td>
+<td><p>m/680/4145611</p></td>
+</tr>
+<tr class="row-odd"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160312.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160312.c’, ‘1’]</p></td>
+<td><p>m/680/4145620</p></td>
+<td><p>m/680/4145621</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160313.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160313.c’, ‘1’]</p></td>
+<td><p>m/680/4145630</p></td>
+<td><p>m/680/4145631</p></td>
+</tr>
+<tr class="row-odd"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160314.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160314.c’, ‘1’]</p></td>
+<td><p>m/680/4145640</p></td>
+<td><p>m/680/4145641</p></td>
+</tr>
+</tbody>
+</table>
+<p>As long as one of the five cannot be detected as a successful escape.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 79%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160360.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160360.c’, ‘1’]</p></td>
+<td><p>m/680/4145600</p></td>
+<td><p>m/680/4145601</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160361.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160361.c’, ‘1’]</p></td>
+<td><p>m/680/4145610</p></td>
+<td><p>m/680/4145611</p></td>
+</tr>
+<tr class="row-odd"><td><p>correct: 1</p></td>
+<td><p>predict: -1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160362.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160362.c’, ‘1’]</p></td>
+<td><p>m/680/4145620</p></td>
+<td><p>m/680/4145621</p></td>
+</tr>
+<tr class="row-even"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160363.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160363.c’, ‘1’]</p></td>
+<td><p>m/680/4145630</p></td>
+<td><p>m/680/4145631</p></td>
+</tr>
+<tr class="row-odd"><td><p>correct: 1</p></td>
+<td><p>predict: 1 clone_paris: [‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsDump/160364.c’, ‘./paper_data/TBCCDS/TBCCD1/TestDate/ProgramsMutate/160364.c’, ‘1’]</p></td>
+<td><p>m/680/4145640</p></td>
+<td><p>m/680/4145641</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id9">
+<h3>Genetic Algorithm<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>It is similar to the Random Mutation.</p>
+</div>
+<div class="section" id="id10">
+<h3>MCMC<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>It is similar to the Random Mutation.</p>
+</div>
+</div>
+<div class="section" id="final-result">
+<h2>Final Result<a class="headerlink" href="#final-result" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-center" id="id11">
+<caption><span class="caption-text">The Escape Rate of ML-based detectors</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Detector</p></td>
+<td><p>AM</p></td>
+<td><p>RM</p></td>
+<td><p>GA</p></td>
+<td><p>MCMC</p></td>
+</tr>
+<tr class="row-even"><td><p>ASTNN</p></td>
+<td><p>92.30%</p></td>
+<td><p>86.56%</p></td>
+<td><p>95.14%</p></td>
+<td><p>93.69%</p></td>
+</tr>
+<tr class="row-odd"><td><p>TBCCD</p></td>
+<td><p>40.60%</p></td>
+<td><p>37.38%</p></td>
+<td><p>29.47%</p></td>
+<td><p>17.25%</p></td>
+</tr>
+<tr class="row-even"><td><p>FCDetector</p></td>
+<td><p>9.4%</p></td>
+<td><p>16.78%</p></td>
+<td><p>21.43%</p></td>
+<td><p>19.92%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="rq2.html" class="btn btn-neutral float-right" title="RQ2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="motivating.html" class="btn btn-neutral float-left" title="Motivating Example" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, no.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

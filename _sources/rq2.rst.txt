@@ -1,0 +1,88 @@
+RQ2
+============
+
+Can Clonescaper still escape from the ML-based detectors enhanced by adversarial training?
+
+In this section, we try to answer RQ2 with the experimental results. That is, whether or not augmenting the training of ML-based detectors with adversarial samples can defend Clonescaper. A common idea of reinforcing such detectors is to fuse the spear into the shield, which means we can convert the code clone pairs from Clonescaper to be adversarial samples to re-train the ML models.
+
+
+Table 1 summarizes the performance of the ML-based detectors before (Original Performance) and after (New Performance) the adversarial training.P , R and F1 denote precision, recall, and overall performance, respectively.  
+
+Overall, the adversarial training indeed promotes the performance of these ML-based detectors. 
+
+
+
+
+.. table:: Table 1 The performance of ML-based detectors on OJClone data
+    :align: center    
+
+    +------------+-----------------------+-----------------------+
+    |            |  Original Performance |    New Perfromance    |
+    +------------+-------+-------+-------+-------+-------+-------+
+    |            |   P   |   R   |   F1  |   P   |   R   |   F1  |
+    +------------+-------+-------+-------+-------+-------+-------+
+    | ASTNN      | 0.98% | 0.92% | 0.95% | 0.99% | 0.97% | 0.98% |
+    +------------+-------+-------+-------+-------+-------+-------+
+    | TBCCD      | 0.99% | 0.99% | 0.99% | 1.00% | 0.98% | 0.99% |
+    +------------+-------+-------+-------+-------+-------+-------+
+    | FCDetector | 0.97% | 0.95% | 0.96% | 0.97% | 0.97% | 0.97% |
+    +------------+-------+-------+-------+-------+-------+-------+
+
+The data used during the test is the same as in RQ1, so the results are in a similar format.
+
+
+Astnn
+--------- 
+`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/astnn>`_
+
+All Mutation
+
+Random Mutation 
+
+Genetic Algorithm
+
+MCMC
+
+FCDetector
+--------- 
+`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/Fcdector>`_
+
+All Mutation
+
+Random Mutation 
+
+Genetic Algorithm
+
+MCMC
+ 
+
+TBCCD
+--------- 
+`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/tbccd>`_
+
+All Mutation
+ 
+Random Mutation 
+ 
+Genetic Algorithm
+ 
+MCMC
+ 
+
+
+Final Results
+-------------
+
+.. table:: The new ER values after adversarial training
+    :align: center 
+
+    +------------+--------+--------+--------+--------+
+    | Detector   | AM     | RM     | GM     | MCMC   |
+    +------------+--------+--------+--------+--------+
+    | ASTNN      | 82.73% | 78.77% | 80.68% | 77.09% |
+    +------------+--------+--------+--------+--------+
+    | TBCCD      | 27.65% | 14.00% | 25.69% | 14.20% |
+    +------------+--------+--------+--------+--------+
+    | FCDetector | 6.58%  | 13.91% | 18.61% | 16.40% |
+    +------------+--------+--------+--------+--------+
+
