@@ -26,9 +26,13 @@ Here we show the result of transforming the Original Code with AM,RM,GA,MCMC pol
 1 Original code
 
 int main(){
+
      int a[6]={100,50,20,10,5,1},b[6];
+     
      int n,i,k;
+     
      scanf("%d",&n);//input
+     
      for(i=0; i<6; i++)
          b[i]=0;
      for(k=0; k<6; k++)
