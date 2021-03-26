@@ -23,7 +23,8 @@ You can see the interpretation of our experimental data [here](https://clonescap
 Mutation Example
 Here we show the result of transforming the Original Code with AM,RM,GA,MCMC policies.
 
-#1 Original code
+1 Original code
+
 int main(){
      int a[6]={100,50,20,10,5,1},b[6];
      int n,i,k;
@@ -41,7 +42,8 @@ int main(){
  }
  
 All Mutation
-#2 All Mutation
+
+2 All Mutation
  int main () {
      int n1;
      int i1;
@@ -104,7 +106,8 @@ All Mutation
  }
  
 Random Mutation
-#3 Random Mutation
+
+3 Random Mutation
  int main () {
      int n, i, k;
      int a [(-6 + 10 + 2)] = {(88 + 10 + 2), 50, 20, (-2 + 10 + 2), (-7 + 10 + 2), (-11 + 10 + 2)}, b1 [(-6 + 10 + 2)];
@@ -148,7 +151,8 @@ Random Mutation
  }
  
 Genetic Algorithm
-#4 Genetic Algorithm
+
+4 Genetic Algorithm
  int main () {
      int n1;
      int i1;
@@ -181,7 +185,7 @@ Genetic Algorithm
  }
  
 MCMC
-#5 MCMC Algorithm
+5 MCMC Algorithm
  int main () {
      int n1;
      int i1;
