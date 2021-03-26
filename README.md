@@ -28,9 +28,7 @@ Here we show the result of transforming the Original Code with AM,RM,GA,MCMC pol
 int main(){
 
      int a[6]={100,50,20,10,5,1},b[6];
-     
      int n,i,k;
-     
      scanf("%d",&n);//input
      
      for(i=0; i<6; i++)
@@ -49,6 +47,7 @@ All Mutation
 
 2 All Mutation
  int main () {
+ 
      int n1;
      int i1;
      int k1;
@@ -113,6 +112,7 @@ Random Mutation
 
 3 Random Mutation
  int main () {
+ 
      int n, i, k;
      int a [(-6 + 10 + 2)] = {(88 + 10 + 2), 50, 20, (-2 + 10 + 2), (-7 + 10 + 2), (-11 + 10 + 2)}, b1 [(-6 + 10 + 2)];
      scanf ("%d", &n);
@@ -158,6 +158,7 @@ Genetic Algorithm
 
 4 Genetic Algorithm
  int main () {
+ 
      int n1;
      int i1;
      int k;
@@ -191,6 +192,7 @@ Genetic Algorithm
 MCMC
 5 MCMC Algorithm
  int main () {
+ 
      int n1;
      int i1;
      int k1;
