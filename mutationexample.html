@@ -263,7 +263,8 @@
 57
 58
 59
-60</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span> <span class="p">{</span>
+60
+61</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span> <span class="p">{</span>
      <span class="kt">int</span> <span class="n">n1</span><span class="p">;</span>
      <span class="kt">int</span> <span class="n">i1</span><span class="p">;</span>
      <span class="kt">int</span> <span class="n">k1</span><span class="p">;</span>
@@ -316,12 +317,13 @@
          <span class="p">};</span>
      <span class="p">}</span>
      <span class="p">{</span>
-         <span class="n">i1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-         <span class="k">while</span> <span class="p">(</span><span class="n">i1</span> <span class="o">&lt;</span> <span class="mi">6</span><span class="p">)</span> <span class="p">{</span>
+         <span class="n">i1</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="mi">6</span> <span class="o">+</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">2</span><span class="p">);</span>
+         <span class="k">while</span> <span class="p">(</span><span class="n">i1</span> <span class="o">&lt;</span> <span class="p">(</span><span class="o">-</span><span class="mi">6</span> <span class="o">+</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">2</span><span class="p">))</span> <span class="p">{</span>
+             <span class="n">printf</span> <span class="p">(</span><span class="s">&quot;%d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">b1</span><span class="p">[</span><span class="n">i1</span><span class="p">]);</span>
              <span class="n">i1</span> <span class="o">=</span> <span class="n">i1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
          <span class="p">};</span>
      <span class="p">}</span>
-     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+     <span class="k">return</span> <span class="p">(</span><span class="o">-</span><span class="mi">6</span> <span class="o">+</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">2</span><span class="p">);</span>
  <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
@@ -449,7 +451,8 @@
 27
 28
 29
-30</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span> <span class="p">{</span>
+30
+31</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span> <span class="p">{</span>
      <span class="kt">int</span> <span class="n">n1</span><span class="p">;</span>
      <span class="kt">int</span> <span class="n">i1</span><span class="p">;</span>
      <span class="kt">int</span> <span class="n">k</span><span class="p">;</span>
@@ -474,6 +477,7 @@
      <span class="p">{</span>
          <span class="n">i1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
          <span class="k">while</span> <span class="p">(</span><span class="n">i1</span> <span class="o">&lt;</span> <span class="mi">6</span><span class="p">)</span> <span class="p">{</span>
+             <span class="n">printf</span> <span class="p">(</span><span class="s">&quot;%d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">b1</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
              <span class="n">i1</span> <span class="o">=</span> <span class="n">i1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
          <span class="p">};</span>
      <span class="p">}</span>
