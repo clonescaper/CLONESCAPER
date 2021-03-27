@@ -102,6 +102,7 @@ All Mutation
      {
          i1 = (-12 + 10 + 2);
          while (i1 < (-6 + 10 + 2)) {
+             printf("%d\n",b[i]);
              i1 = i1 + 1;
          };
      }
@@ -183,6 +184,7 @@ int main () {
      {
          i1 = 0;
          while (i1 < 6) {
+             printf("%d\n",b[i]);
              i1 = i1 + 1;
          };
      }
