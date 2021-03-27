@@ -90,6 +90,8 @@
 <li class="toctree-l1"><a class="reference internal" href="rq1.html">RQ1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="rq2.html">RQ2</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">RQ3</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#am-result">AM Result</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#traditional-result">traditional Result</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sourcerercc">SourcererCC</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#all-mutation">All Mutation</a></li>
 </ul>
@@ -114,7 +116,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#id5">All Mutation</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#am-result">AM Result</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="mutationexample.html">Mutation Example</a></li>
@@ -190,13 +191,123 @@
 <p>Can Clonescaper still escape from the ML-based detectors enhanced by adversarial training?</p>
 <p>In this section, we answer RQ3, which explores whether or not Clonescaper can also defeat traditional clone detection techniques. While ML-based detectors have achieved desirable performance, traditional detectors are still widely used in practice. To explore to what extent the cloned code from Clonescaper may escape from traditional detectors.</p>
 <p><a class="reference external" href="https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/tbccd">Github</a></p>
+<div class="section" id="am-result">
+<h2>AM Result<a class="headerlink" href="#am-result" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-center" id="id6">
+<caption><span class="caption-text">The ER values of traditional clone detectors</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 18%" />
+<col style="width: 11%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td></td>
+<td><p>SourcererCC</p></td>
+<td><p>NICARS</p></td>
+<td><p>CCAligner</p></td>
+<td><p>CCFinderX</p></td>
+<td><p>Deckard</p></td>
+<td><p>CCGRaph</p></td>
+</tr>
+<tr class="row-even"><td><p>Attribute</p></td>
+<td><p>Token</p></td>
+<td><p>Text</p></td>
+<td><p>Token</p></td>
+<td><p>Token</p></td>
+<td><p>Tree</p></td>
+<td><p>PDG</p></td>
+</tr>
+<tr class="row-odd"><td><p>ER</p></td>
+<td><p>99.99%</p></td>
+<td><p>98.91%</p></td>
+<td><p>98.56%</p></td>
+<td><p>97.17%</p></td>
+<td><p>90.13%</p></td>
+<td><p>65.48</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="traditional-result">
+<h2>traditional Result<a class="headerlink" href="#traditional-result" title="Permalink to this headline">¶</a></h2>
+<p>Times</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 61%" />
+<col style="width: 14%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Tools   Name</p></td>
+<td><p>Experimental   description</p></td>
+<td><p>Times</p></td>
+</tr>
+<tr class="row-even"><td><p>CCaligner</p></td>
+<td><p>The   data was divided into 10 parts.</p></td>
+<td><p>3898s</p></td>
+</tr>
+<tr class="row-odd"><td><p>SourcererCC</p></td>
+<td><p>The   data was divided into 100 parts.</p></td>
+<td><p>7109s</p></td>
+</tr>
+<tr class="row-even"><td><p>Nickard</p></td>
+<td><p>The   data was divided into 100 parts.</p></td>
+<td><p>1s</p></td>
+</tr>
+<tr class="row-odd"><td><p>Deckard</p></td>
+<td><p>The   data was divided into 100 parts.</p></td>
+<td><p>8661s</p></td>
+</tr>
+</tbody>
+</table>
+<p>results</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Tools   Name</p></td>
+<td><p>RM</p></td>
+<td><p>GA</p></td>
+<td><p>MCMC</p></td>
+</tr>
+<tr class="row-even"><td><p>CCaligner</p></td>
+<td><p>96.86%</p></td>
+<td><p>97.67%</p></td>
+<td><p>97.81%</p></td>
+</tr>
+<tr class="row-odd"><td><p>SourcererCC</p></td>
+<td><p>99.39%</p></td>
+<td><p>99.62%</p></td>
+<td><p>99.91%</p></td>
+</tr>
+<tr class="row-even"><td><p>Nickard</p></td>
+<td><p>97.90%</p></td>
+<td><p>98.26%</p></td>
+<td><p>98.51%</p></td>
+</tr>
+<tr class="row-odd"><td><p>Deckard</p></td>
+<td><p>91.05%</p></td>
+<td><p>91.51%</p></td>
+<td><p>91.58%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 <div class="section" id="sourcerercc">
 <h2>SourcererCC<a class="headerlink" href="#sourcerercc" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="all-mutation">
 <h3>All Mutation<a class="headerlink" href="#all-mutation" title="Permalink to this headline">¶</a></h3>
 <p>The data was split into 5 copies during the experiment, and the following are the corresponding test results and the correspondence between the indexes.</p>
-<table class="docutils align-center" id="id6">
-<caption><span class="caption-text">result and index</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id7">
+<caption><span class="caption-text">result and index</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 44%" />
 <col style="width: 56%" />
@@ -222,8 +333,8 @@
 </tr>
 </tbody>
 </table>
-<table class="docutils align-center" id="id7">
-<caption><span class="caption-text">result example</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id8">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 44%" />
 <col style="width: 56%" />
@@ -234,8 +345,8 @@
 </tr>
 </tbody>
 </table>
-<table class="docutils align-center" id="id8">
-<caption><span class="caption-text">index example</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id9">
+<caption><span class="caption-text">index example</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 9%" />
 <col style="width: 91%" />
@@ -261,8 +372,8 @@ Here the two mutated codes 10002_2.c and 10004_2.c are identified as clone pairs
 <div class="section" id="id1">
 <h3>All Mutation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <p>We divided the data into 5 parts to test.</p>
-<table class="docutils align-center" id="id9">
-<caption><span class="caption-text">nicad result</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id10">
+<caption><span class="caption-text">nicad result</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
@@ -296,8 +407,8 @@ such as(1Dump/16466.c,1Muta/16466.c)</p>
 <div class="section" id="id2">
 <h3>All Mutation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <p>The experimental results are as follows.</p>
-<table class="docutils align-center" id="id10">
-<caption><span class="caption-text">ccaligner results</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id11">
+<caption><span class="caption-text">ccaligner results</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
@@ -320,8 +431,8 @@ such as(1Dump/16466.c,1Muta/16466.c)</p>
 </tr>
 </tbody>
 </table>
-<table class="docutils align-center" id="id11">
-<caption><span class="caption-text">result example</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id12">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
@@ -342,8 +453,8 @@ such as(1Dump/16466.c,1Muta/16466.c)</p>
 <div class="section" id="id3">
 <h3>All Mutation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <p>We split the data into 12 copies for testing.</p>
-<table class="docutils align-center" id="id12">
-<caption><span class="caption-text">ccfinderX result</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id13">
+<caption><span class="caption-text">ccfinderX result</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 8%" />
 <col style="width: 8%" />
@@ -374,8 +485,8 @@ such as(1Dump/16466.c,1Muta/16466.c)</p>
 </tr>
 </tbody>
 </table>
-<table class="docutils align-center" id="id13">
-<caption><span class="caption-text">result example</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id14">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 14%" />
 <col style="width: 66%" />
@@ -423,8 +534,8 @@ such as(1Dump/16466.c,1Muta/16466.c)</p>
 <h2>Deckard<a class="headerlink" href="#deckard" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id4">
 <h3>All Mutation<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-<table class="docutils align-center" id="id14">
-<caption><span class="caption-text">deckard result</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id15">
+<caption><span class="caption-text">deckard result</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
@@ -463,8 +574,8 @@ such as(1Dump/16466.c,1Muta/16466.c)</p>
 </tr>
 </tbody>
 </table>
-<table class="docutils align-center" id="id15">
-<caption><span class="caption-text">result example</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-center" id="id16">
+<caption><span class="caption-text">result example</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 9%" />
@@ -527,47 +638,6 @@ to help us fnish this experiment.</p>
 <p>Genetic Algorithm</p>
 <p>MCMC</p>
 </div>
-</div>
-<div class="section" id="am-result">
-<h2>AM Result<a class="headerlink" href="#am-result" title="Permalink to this headline">¶</a></h2>
-<table class="docutils align-center" id="id16">
-<caption><span class="caption-text">The ER values of traditional clone detectors</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 18%" />
-<col style="width: 11%" />
-<col style="width: 15%" />
-<col style="width: 15%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td></td>
-<td><p>SourcererCC</p></td>
-<td><p>NICARS</p></td>
-<td><p>CCAligner</p></td>
-<td><p>CCFinderX</p></td>
-<td><p>Deckard</p></td>
-<td><p>CCGRaph</p></td>
-</tr>
-<tr class="row-even"><td><p>Attribute</p></td>
-<td><p>Token</p></td>
-<td><p>Text</p></td>
-<td><p>Token</p></td>
-<td><p>Token</p></td>
-<td><p>Tree</p></td>
-<td><p>PDG</p></td>
-</tr>
-<tr class="row-odd"><td><p>ER</p></td>
-<td><p>99.99%</p></td>
-<td><p>98.91%</p></td>
-<td><p>98.56%</p></td>
-<td><p>97.17%</p></td>
-<td><p>90.13%</p></td>
-<td><p>65.48</p></td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 
