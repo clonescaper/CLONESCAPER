@@ -105,7 +105,7 @@ All Mutation
              i1 = i1 + 1;
          };
      }
-     return 0;
+     return (-12 + 10 + 2);
  }
  ```
  
