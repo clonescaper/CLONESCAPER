@@ -184,7 +184,7 @@ int main () {
      {
          i1 = 0;
          while (i1 < 6) {
-             printf("%d\n",b1[1i]);
+             printf("%d\n",b1[i1]);
              i1 = i1 + 1;
          };
      }
