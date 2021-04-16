@@ -48,196 +48,196 @@ All Mutation
 2 All Mutation
 ```
  int main () {
-     int n1;
-     int i1;
-     int k1;
-     int a1 [(-6 + 10 + 2)] = {(88 + 10 + 2), (38 + 10 + 2), (8 + 10 + 2), (-2 + 10 + 2), (-7 + 10 + 2), (-11 + 10 + 2)};
-     int b1 [(-6 + 10 + 2)];
-     if (0) {
-         int x, y;
-         for (x = 0; x < 20; x++) {
-             y += x;
-         }
-         if (y > 30)
-             return y;
-     };
-     {
-         i1 = (-12 + 10 + 2);
-         while ((-6 + 10 + 2) > i1) {
-             b1[i1] = (-12 + 10 + 2);
-             i1 = i1 + (-11 + 10 + 2);
-         };
-     }
-     scanf ("%d", &n1);
-     {
-         k1 = (-12 + 10 + 2);
-         if (0) {
-             int x, y;
-             for (x = 0; x < 20; x++) {
-                 y += x;
-             }
-             if (y > 30)
-                 return y;
-         }
-         while ((-6 + 10 + 2) > k1) {
-             {
-                 i1 = (-12 + 10 + 2);
-                 while (a1[k1] <= n1) {
-                     i1 = i1 + (-11 + 10 + 2);
-                     n1 = n1 - a1[k1];
-                     if (0) {
-                         int x, y;
-                         for (x = 0; x < 20; x++) {
-                             y += x;
-                         }
-                         if (y > 30)
-                             return y;
-                     }
-                     b1[k1] = b1[k1] + (-11 + 10 + 2);
-                 };
-             }
-             k1 = k1 + (-11 + 10 + 2);
-         };
-     }
-     {
-         i1 = (-12 + 10 + 2);
-         while (i1 < (-6 + 10 + 2)) {
-             printf("%d\n",b1[i1]);
-             i1 = i1 + 1;
-         };
-     }
-     return (-12 + 10 + 2);
- }
+    int KNsTXjz;
+    int hUus1Z7;
+    int mQRaKJOpd5Sc;
+    int ttVCnvo [(128 - 122)] = {(986 - 886), (437 - 387), (756 - 736), (490 - 480), (554 - 549), (314 - 313)};
+    int E2fNREXmbi07 [(429 - 423)];
+    {
+        int x = 0, y;
+        if (!(x * (x - 1) % 2 == 0)) {
+            for (x = 0; x < 20; x++) {
+                y += x;
+            }
+            if (y > 30)
+                return y;
+        }
+    };
+    {
+        hUus1Z7 = 179 - 179;
+        {
+            int x = 0, y;
+            if (!(x * (x - 1) % 2 == 0)) {
+                int m = 0;
+                int n = 0;
+                m = m * n + n - m + n * 2;
+                return 0;
+            }
+        }
+        while ((30 - 24) > hUus1Z7) {
+            E2fNREXmbi07[hUus1Z7] = (303 - 303);
+            hUus1Z7 = hUus1Z7 + 1;
+        };
+    }
+    scanf ("%d", &KNsTXjz);
+    {
+        mQRaKJOpd5Sc = 291 - 291;
+        while ((924 - 918) > mQRaKJOpd5Sc) {
+            {
+                hUus1Z7 = 894 - 894;
+                while (ttVCnvo[mQRaKJOpd5Sc] <= KNsTXjz) {
+                    hUus1Z7 = hUus1Z7 + 1;
+                    KNsTXjz = KNsTXjz -ttVCnvo[mQRaKJOpd5Sc];
+                    E2fNREXmbi07[mQRaKJOpd5Sc] = E2fNREXmbi07[mQRaKJOpd5Sc] + (42 - 41);
+                };
+            }
+            mQRaKJOpd5Sc = mQRaKJOpd5Sc + 1;
+        };
+    }
+    {
+        hUus1Z7 = 354 - 354;
+        while (hUus1Z7 < (271 - 265)) {
+            printf ("%d\n", E2fNREXmbi07[hUus1Z7]);
+            hUus1Z7 = hUus1Z7 + 1;
+        };
+    }
+    return (510 - 510);
+}
  ```
  
 Random Mutation
 ```
 int main () {
-     int n, i, k;
-     int a [(-6 + 10 + 2)] = {(88 + 10 + 2), 50, 20, (-2 + 10 + 2), (-7 + 10 + 2), (-11 + 10 + 2)}, b1 [(-6 + 10 + 2)];
-     scanf ("%d", &n);
-     {
-         i = (-12 + 10 + 2);
-         while (i < (-6 + 10 + 2)) {
-             b1[i] = (-12 + 10 + 2);
-             i = i + 1;
-         };
-     }
-     if (0) {
-         int x, y;
-         for (x = 0; x < 20; x++) {
-             y += x;
-         }
-         if (y > 30)
-             return y;
-     }
-     for (k = (-12 + 10 + 2); k < 6; k++)
-         for (i = 0; n >= a[k]; i++) {
-             n = n - a[k];
-             if (0) {
-                 int x, y;
-                 for (x = 0; x < 20; x++) {
-                     y += x;
-                 }
-                 if (y > 30)
-                     return y;
-             }
-             b1[k] = b1[k] + 1;
-         }
-     {
-         i = 0;
-         while (i < 6) {
-             printf ("%d\n", b1[i]);
-             i++;
-         };
-     }
-     return 0;
- }
+    int a [(848 - 842)] = {100, 50, 20, 10, 5, 1};
+    int b [6];
+    int n;
+    int i;
+    int f4stKEJqr0y;
+    {
+        int x = 0, y;
+        if (!(x * (x - 1) % 2 == 0)) {
+            for (x = 0; x < 20; x++) {
+                y += x;
+            }
+            if (y > 30)
+                return y;
+        }
+    };
+    scanf ("%d", &n);
+    for (i = (405 - 405); i < 6; i++)
+        b[i] = 0;
+    for (f4stKEJqr0y = 0; f4stKEJqr0y < 6; f4stKEJqr0y++)
+        for (i = 0; n >= a[f4stKEJqr0y]; i++) {
+            n = n - a[f4stKEJqr0y];
+            b[f4stKEJqr0y] += 1;
+        }
+    for (i = 0; i < 6; i++)
+        printf ("%d\n", b[i]);
+    return 0;
+}
+
  ```
  
 Genetic Algorithm
 
 ```
+int main () {
+    int aQglLjBwMFf;
+    int Yj72dh;
+    int Ydx7UlI;
+    int ayJELC [(920 - 914)] = {(516 - 416), (398 - 348), (415 - 395), (331 - 321), (56 - 51), (617 - 616)};
+    int AARelxK [(452 - 446)];
+    {
+        int x = 0, y;
+        if (!(x * (x - 1) % 2 == 0)) {
+            for (x = 0; x < 20; x++) {
+                y += x;
+            }
+            if (y > 30)
+                return y;
+        }
+    };
+    {
+        Yj72dh = 358 - 358;
+        {
+            int x = 0, y;
+            if (!(x * (x - 1) % 2 == 0)) {
+                int m = 0;
+                int n = 0;
+                m = m * n + n - m + n * 2;
+                return 0;
+            }
+        }
+        while ((480 - 474) > Yj72dh) {
+            AARelxK[Yj72dh] = (98 - 98);
+            Yj72dh = Yj72dh +1;
+        };
+    }
+    scanf ("%d", &aQglLjBwMFf);
+    {
+        Ydx7UlI = 693 - 693;
+        while ((458 - 452) > Ydx7UlI) {
+            {
+                Yj72dh = 701 - 701;
+                while (ayJELC[Ydx7UlI] <= aQglLjBwMFf) {
+                    Yj72dh = Yj72dh +1;
+                    aQglLjBwMFf = aQglLjBwMFf - ayJELC[Ydx7UlI];
+                    AARelxK[Ydx7UlI] = AARelxK[Ydx7UlI] + (436 - 435);
+                };
+            }
+            Ydx7UlI = Ydx7UlI +1;
+        };
+    }
+    {
+        Yj72dh = 479 - 479;
+        while (Yj72dh < (462 - 456)) {
+            printf ("%d\n", AARelxK[Yj72dh]);
+            Yj72dh = Yj72dh +1;
+        };
+    }
+    return (204 - 204);
+}
 
-int main () { 
-     int n1;
-     int i1;
-     int k;
-     int a1 [(-6 + 10 + 2)] = {100, (38 + 10 + 2), (8 + 10 + 2), (-2 + 10 + 2), 5, (-11 + 10 + 2)};
-     int b1 [(-6 + 10 + 2)];
-     {
-         i1 = (-12 + 10 + 2);
-         while ((-6 + 10 + 2) > i1) {
-             b1[i1] = (-12 + 10 + 2);
-             i1 = i1 + (-11 + 10 + 2);
-         };
-     }
-     scanf ("%d", &n1);
-     for (k = (-12 + 10 + 2); (-6 + 10 + 2) > k; k = k + (-11 + 10 + 2)) {
-         i1 = 0;
-         while (a1[k] <= n1) {
-             i1 = i1 + (-11 + 10 + 2);
-             n1 = n1 - a1[k];
-             b1[k] = b1[k] + (-11 + 10 + 2);
-         };
-     }
-     {
-         i1 = 0;
-         while (i1 < 6) {
-             printf("%d\n",b1[i1]);
-             i1 = i1 + 1;
-         };
-     }
-     return 0;
- }
  ```
  
 MCMC Algorithm
 ```
 int main () {
-     int n1;
-     int i1;
-     int k1;
-     int a1 [(-6 + 10 + 2)] = {100, (38 + 10 + 2), 20, 10, (-7 + 10 + 2), (-11 + 10 + 2)};
-     int b1 [(-6 + 10 + 2)];
-     if (0) {
-         int x, y;
-         for (x = 0; x < 20; x++) {
-             y += x;
-         }
-         if (y > 30)
-             return y;
-     };
-     for (i1 = 0; 6 > i1; i1 = i1 + (-11 + 10 + 2))
-         b1[i1] = 0;
-     scanf ("%d", &n1);
-     {
-         k1 = 0;
-         while (6 > k1) {
-             for (i1 = 0; a1[k1] <= n1; i1 = i1 + 1) {
-                 n1 = n1 - a1[k1];
-                 if (0) {
-                     int x, y;
-                     for (x = 0; x < 20; x++) {
-                         y += x;
-                     }
-                     if (y > 30)
-                         return y;
-                 }
-                 b1[k1] += 1;
-             }
-             k1 = k1 + 1;
-         };
-     }
-     {
-         i1 = 0;
-         while (i1 < 6) {
-             printf ("%d\n", b1[i1]);
-             i1++;
-         };
-     }
-     return 0;
- }
+    int BSZeHFuoVB;
+    int GcGQghYl;
+    int E6FGNU3uMa;
+    int K47XChZHu [(977 - 971)] = {(326 - 226), (608 - 558), (841 - 821), 10, (170 - 165), 1}, qvLXOC [(805 - 799)];
+    {
+        int x = 0, y;
+        if (!(x * (x - 1) % 2 == 0)) {
+            for (x = 0; x < 20; x++) {
+                y += x;
+            }
+            if (y > 30)
+                return y;
+        }
+    }
+    for (GcGQghYl = (990 - 990); GcGQghYl < 6; GcGQghYl = GcGQghYl +1)
+        qvLXOC[GcGQghYl] = (429 - 429);
+    scanf ("%d", &BSZeHFuoVB);
+    for (E6FGNU3uMa = (12 - 12); 6 > E6FGNU3uMa; E6FGNU3uMa++) {
+        GcGQghYl = 965 - 965;
+        while (BSZeHFuoVB >= K47XChZHu[E6FGNU3uMa]) {
+            GcGQghYl++;
+            BSZeHFuoVB = BSZeHFuoVB -K47XChZHu[E6FGNU3uMa];
+            qvLXOC[E6FGNU3uMa] = qvLXOC[E6FGNU3uMa] + 1;
+        };
+    }
+    {
+        GcGQghYl = 0;
+        while (GcGQghYl < 6) {
+            printf ("%d\n", qvLXOC[GcGQghYl]);
+            GcGQghYl++;
+        };
+    }
+    return 0;
+}
+
 ```
 
 
