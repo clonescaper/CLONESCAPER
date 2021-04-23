@@ -241,4 +241,4 @@ int main () {
 ```
 
 
-You can see the interpretation of our experimental data [here](https://clonescaper.github.io/CLONESCAPER/index.html).
+You can see the interpretation of our experimental data [here](https://clonegen.github.io/CLONEGEN/).
