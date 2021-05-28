@@ -164,7 +164,7 @@ Motivating example of code clone at diﬀerent levels. All the clone instances a
 Test Data
 --------------------
 
-The Motivating data is in `Github <https://github.com/clonescaper/CLONESCAPER/tree/main/motivationData/Data>`_.
+The Motivating data is in `Github <https://github.com/CloneGen/CLONEGEN/tree/main/motivationData/Data>`_.
 
 Here we transformed #1 in motivation using a randomized algorithm to generate a lot of equivalent clone codes and then tested it with three tools to find clone pairs that were not detected by any of the three tools.
 
@@ -181,7 +181,7 @@ Because deep learning tools experiments have uncertainty, there is uncertainty i
 
 Astnn Result
 ------------
-`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/motivationData/Machine_learning_Test_Result/astnn>`_.
+`Github <https://github.com/CloneGen/CLONEGEN/tree/main/motivationData/Machine_learning_Test_Result/astnn>`_.
 data location
 in astnn_motivation/300
 
@@ -230,7 +230,7 @@ test result
 
 FCDetector Result 
 -----------------
-`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/motivationData/Machine_learning_Test_Result/fcdector>`_.
+`Github <https://github.com/CloneGen/CLONEGEN/tree/main/motivationData/Machine_learning_Test_Result/fcdector>`_.
 data location
 \\motivation_data\\OriginalChangedPair
 
@@ -250,7 +250,7 @@ test result
 
 TBCCD Result
 -------------
-`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/motivationData/Machine_learning_Test_Result/tbccd>`_.
+`Github <https://github.com/CloneGen/CLONEGEN/tree/main/motivationData/Machine_learning_Test_Result/tbccd>`_.
 
 data location:
 

@@ -1,11 +1,11 @@
 RQ3
 ============
 
-Can Clonescaper still escape from the ML-based detectors enhanced by adversarial training?
+Can CloneGen still escape from the ML-based detectors enhanced by adversarial training?
 
-In this section, we answer RQ3, which explores whether or not Clonescaper can also defeat traditional clone detection techniques. While ML-based detectors have achieved desirable performance, traditional detectors are still widely used in practice. To explore to what extent the cloned code from Clonescaper may escape from traditional detectors.
+In this section, we answer RQ3, which explores whether or not CloneGen can also defeat traditional clone detection techniques. While ML-based detectors have achieved desirable performance, traditional detectors are still widely used in practice. To explore to what extent the cloned code from CloneGen may escape from traditional detectors.
 
-`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/tbccd>`_
+`Github <https://github.com/CloneGen/CLONEGEN/tree/main/RQ2-mlDetectorsResult/tbccd>`_
 
 
 

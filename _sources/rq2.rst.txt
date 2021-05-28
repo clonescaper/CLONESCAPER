@@ -1,9 +1,9 @@
 RQ2
 ============
 
-Can Clonescaper still escape from the ML-based detectors enhanced by adversarial training?
+Can CloneGen still escape from the ML-based detectors enhanced by adversarial training?
 
-In this section, we try to answer RQ2 with the experimental results. That is, whether or not augmenting the training of ML-based detectors with adversarial samples can defend Clonescaper. A common idea of reinforcing such detectors is to fuse the spear into the shield, which means we can convert the code clone pairs from Clonescaper to be adversarial samples to re-train the ML models.
+In this section, we try to answer RQ2 with the experimental results. That is, whether or not augmenting the training of ML-based detectors with adversarial samples can defend CloneGen. A common idea of reinforcing such detectors is to fuse the spear into the shield, which means we can convert the code clone pairs from CloneGen to be adversarial samples to re-train the ML models.
 
 
 Table 1 summarizes the performance of the ML-based detectors before (Original Performance) and after (New Performance) the adversarial training.P , R and F1 denote precision, recall, and overall performance, respectively.  
@@ -33,7 +33,7 @@ The data used during the test is the same as in RQ1, so the results are in a sim
 
 Astnn
 --------- 
-`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/astnn>`_
+`Github <https://github.com/CloneGen/CLONEGEN/tree/main/RQ2-mlDetectorsResult/astnn>`_
 
 All Mutation
 
@@ -45,7 +45,7 @@ MCMC
 
 FCDetector
 --------- 
-`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/Fcdector>`_
+`Github <https://github.com/CloneGen/CLONEGEN/tree/main/RQ2-mlDetectorsResult/Fcdector>`_
 
 All Mutation
 
@@ -58,7 +58,7 @@ MCMC
 
 TBCCD
 --------- 
-`Github <https://github.com/clonescaper/CLONESCAPER/tree/main/RQ2-mlDetectorsResult/tbccd>`_
+`Github <https://github.com/CloneGen/CLONEGEN/tree/main/RQ2-mlDetectorsResult/tbccd>`_
 
 All Mutation
  

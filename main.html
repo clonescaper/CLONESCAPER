@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>HOME &mdash; clonescaper 0.1 documentation</title>
+  <title>HOME &mdash; CloneGen 0.1 documentation</title>
   
 
   
@@ -53,7 +53,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> clonescaper
+            <a href="index.html" class="icon icon-home"> CloneGen
           
 
           
@@ -111,7 +111,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">clonescaper</a>
+          <a href="index.html">CloneGen</a>
         
       </nav>
 
@@ -167,17 +167,17 @@
 <h1>HOME<a class="headerlink" href="#home" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="tool-description">
 <h2>Tool Description<a class="headerlink" href="#tool-description" title="Permalink to this headline">¶</a></h2>
-<p>CLONESCAPER a lightweight yet practical code transformation approach that challenges recent ML-learning based clone detectors. In Clonescaper, we have developed 15 equivalence transformations (e.g., renaming variables, converting for-loop to while-loop, swapping code order, etc.).</p>
+<p>CloneGen a lightweight yet practical code transformation approach that challenges recent ML-learning based clone detectors. In CloneGen, we have developed 15 equivalence transformations (e.g., renaming variables, converting for-loop to while-loop, swapping code order, etc.).</p>
 <p>To quickly find the workable solutions among all possible transformations, we adopt four diﬀerent strategies to search for eﬀective solutions, including All-Mutation (AM), Random-Mutation (RM), Genetic Algorithm (GA), Markov chain Monte Carlo (MCMC).</p>
 <div class="figure align-center" id="id11">
 <a class="reference internal image-reference" href="_images/system.png"><img alt="An adorable ginger cat." src="_images/system.png" style="width: 80%;" /></a>
 <p class="caption"><span class="caption-text">Fig. 1 system overview</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </div>
-<p>Fig. 1 illustrates the overall workﬂow of Clonescaper. In general, Clonescaper consists of two phases: the mutation phase and the evaluation phase. The former takes a source code snippet as input, performs code equivalence transformations (i.e., mutation operations), and outputs the mutated code snippets. The latter evaluation phase feeds the original code snippets together with the newly mutated ones to a set of state-of-the-art clone detectors and outputs whether the new code snippets could escape from these detectors.</p>
+<p>Fig. 1 illustrates the overall workﬂow of CloneGen. In general, CloneGen consists of two phases: the mutation phase and the evaluation phase. The former takes a source code snippet as input, performs code equivalence transformations (i.e., mutation operations), and outputs the mutated code snippets. The latter evaluation phase feeds the original code snippets together with the newly mutated ones to a set of state-of-the-art clone detectors and outputs whether the new code snippets could escape from these detectors.</p>
 </div>
 <div class="section" id="implementation-details">
 <h2>Implementation Details<a class="headerlink" href="#implementation-details" title="Permalink to this headline">¶</a></h2>
-<p>To evaluate Clonescaper, we select unique code snippets from
+<p>To evaluate CloneGen, we select unique code snippets from
 the OJClone datasets. For a given code snippet <em>x</em>, we generate five semantic-preserved variants. We then iteratively pair <em>x</em>, with a variant and feed the code pair to ML-based detectors to see whether they can determine that pair as code clones.</p>
 <p>OJ is a C language database collected by Mou et al <a class="footnote-reference brackets" href="#mou" id="id1">1</a>. It consists of 104 folders; each folder contains diﬀerent implementations of solutions of the same problem</p>
 <p>We select around 20% of the code from each OJClone task to form an initial dataset <img class="math" src="_images/math/44dc64e86c3506d5e5b14f06de55823f8980decf.png" alt="D_{I}"/>, and   apply the four strategies (AM, RM, GA, and MCMC) to <img class="math" src="_images/math/44dc64e86c3506d5e5b14f06de55823f8980decf.png" alt="D_{I}"/> to construct new datasets <img class="math" src="_images/math/3c95fe28e27986572e97a42dc0ebb36205c5a236.png" alt="D_{A}"/>,  <img class="math" src="_images/math/f3ba4b7ada1bf85f450c9933e0d9e5681b3b7f20.png" alt="D_{R}"/>, <img class="math" src="_images/math/3ff5a8ef829335ac96df67447f9733cff013e380.png" alt="D_{G}"/>, and <img class="math" src="_images/math/5ed8fdd79644f2cfa8b287a76922eef414276048.png" alt="D_{M}"/>. The original OJClone dataset has many redundant problem solutions and we only use the distinct solutions after careful inspection.</p>
@@ -199,9 +199,9 @@ the OJClone datasets. For a given code snippet <em>x</em>, we generate five sema
 </tr>
 <tr class="row-even"><td><p>Clone Pairs</p></td>
 <td><p>10300</p></td>
-<td><p>10394*5</p></td>
-<td><p>10075*5</p></td>
-<td><p>10395*5</p></td>
+<td><p>51970</p></td>
+<td><p>50875</p></td>
+<td><p>51975</p></td>
 </tr>
 <tr class="row-odd"><td><p>Time(m)</p></td>
 <td><p>9.01</p></td>

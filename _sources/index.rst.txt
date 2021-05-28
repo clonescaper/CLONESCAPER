@@ -2,7 +2,7 @@
 HOME 
 ==============================
 
-A brief introduction to clonescaper and explanation of the test data. The results of the experiment are saved here `Github <https://github.com/clonescaper/CLONESCAPER.git>`_.
+A brief introduction to CloneGen and explanation of the test data. The results of the experiment are saved here `Github <https://github.com/CloneGen/CLONEGEN.git>`_.
 
 Our tools and test code will be made public later.
 
